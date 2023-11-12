@@ -9,39 +9,15 @@
     <link rel="stylesheet" href="/css/navbar-footer.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href=".p/css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-
+    <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
     <script src="/js/home.js" defer></script>
-
-
 
 </head>
 
 <body>
-    
-<header>
-    <nav>
-    <div class="container nav_container">
-        <div class="school-name">ST JOSEPH'S NALONDO HIGH SCHOOL</div>
-  
-        <ul class="nav_menu">
-                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('about') }}">About Us</a></li>
-                <li><a href="{{ route('faculty') }}">Faculty</a></li>
-                <li><a href="{{ route('studentLife') }}">Student Life</a></li>
-                <li><a href="{{ route('community') }}">Community</a></li>
-                <li><a href="{{ route('achievements') }}">Achievements</a></li>
-                <li><a href="{{ route('contact') }}">Contact Us</a></li> 
-            </ul>
-            <button id="open-menu-btn"><i class ="uil uil-bars"></i></button>
-        <button id="close-menu-btn"><i class ="uil uil-multiply"></i></button>
-
-        </div>
-
-    </nav>
-    </header>
+    @include('navbar')
     <main>
         {{-- section landing --}}
         <section class="landing">
@@ -299,8 +275,6 @@
             currentSlide = i
         })
     })
-
-
-  </script>
+</script>
 
 </html>

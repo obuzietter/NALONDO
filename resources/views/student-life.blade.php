@@ -4,42 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Life</title>
+    <title>Nalondo - Student Life</title>
     <link rel="stylesheet" href="/css/student-life.css">
     <link rel="stylesheet" href="/css/student-leader.css">
     <script src="/js/student-leader.js" defer></script>
 
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
+    <!-- <link rel="stylesheet" href="/css/footer.css"> -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="/css/navbar-footer.css">
 </head>
 
 <body>
-    <header>
-
-    
-    <nav>
-        <div class="container nav_container">
-        <div class="school-name">ST JOSEPH'S NALONDO HIGH SCHOOL</div>
-  
-        <ul class="nav_menu">
-                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('about') }}">About Us</a></li>
-                <li><a href="{{ route('faculty') }}">Faculty</a></li>
-                <li><a href="{{ route('studentLife') }}">Student Life</a></li>
-                <li><a href="{{ route('community') }}">Community</a></li>
-                <li><a href="{{ route('achievements') }}">Achievements</a></li>
-                <li><a href="{{ route('contact') }}">Contact Us</a></li> 
-            </ul>
-            <button id="open-menu-btn"><i class ="uil uil-bars"></i></button>
-        <button id="close-menu-btn"><i class ="uil uil-multiply"></i></button>
-
-        </div>
-
-    </nav>
-    </header>
+    @include('navbar')
     <main>
         <section class="hero">
             <h1>SEE THE STUDENT LIFE</h1>
@@ -115,7 +94,7 @@
             <div class="banner">
                 <h1>HIGHEST KCSE SCORE EVER ACHIEVED
                     <br>
-                10.5
+                    10.5
                 </h1>
             </div>
         </section>
@@ -170,7 +149,7 @@
                     <source src="https://v.ftcdn.net/02/16/14/54/240_F_216145419_8ZL4rGJUqB6Ci4dRUrEOiRQh4Jgd2Ui1_ST.mp4" type="">
                 </video>
             </div>
-            
+
         </section>
         <section class="accomodation">
             <div class="title">
@@ -184,7 +163,7 @@
                 <div class="box">
                     <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1520.jpg" alt="">
                 </div>
-                
+
                 <div class="box">
                     <img src="https://img.freepik.com/free-photo/long-hallway-with-blue-doors-light-ceiling_1340-32511.jpg" alt="">
                 </div>
@@ -215,7 +194,7 @@
         </section>
     </main>
     <footer>
-    <div class="footer">
+        <div class="footer">
             <div class="contact-info">
                 <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-envelope"></i> Email:
                     info@nalondohighschool.com</p>
@@ -237,53 +216,53 @@
             </div>
         </div>
     </footer>
-    
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
-    window.addEventListener('scroll',()=>{
-    document.querySelector('nav').classList.toggle('window-scroll',window.scrollY>0)
-})
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-//show/hide nav menu
-const menu=document.querySelector(".nav_menu");
-const menuBtn=document.querySelector("#open-menu-btn");
-const closeBtn=document.querySelector("#close-menu-btn");
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+        })
 
-
-
-menuBtn.addEventListener('click',()=>{
-    menu.style.display="flex";
-    closeBtn.style.display="inline-block";
-    menuBtn.style.display="none";
-})
-
-//close navbar
-const closeNav=()=>{
-    menu.style.display="none";
-    closeBtn.style.display="none";
-    menuBtn.style.display="inline-block";
+        //show/hide nav menu
+        const menu = document.querySelector(".nav_menu");
+        const menuBtn = document.querySelector("#open-menu-btn");
+        const closeBtn = document.querySelector("#close-menu-btn");
 
 
-}
-closeBtn.addEventListener('click',closeNav)
 
-      var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      //when windo is>=600px
-      breakpoints: {
-        600:{
-            slidesPerView:2
+        menuBtn.addEventListener('click', () => {
+            menu.style.display = "flex";
+            closeBtn.style.display = "inline-block";
+            menuBtn.style.display = "none";
+        })
+
+        //close navbar
+        const closeNav = () => {
+            menu.style.display = "none";
+            closeBtn.style.display = "none";
+            menuBtn.style.display = "inline-block";
+
 
         }
-      }
-    });
-</script>
+        closeBtn.addEventListener('click', closeNav)
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //when windo is>=600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+
+                }
+            }
+        });
+    </script>
 
 </body>
 
