@@ -1,0 +1,20 @@
+:root{
+
+     
+    --prim-color:rgb(9,9,143);
+    --sec-color:rgb(119,138,237);
+    --tertiary-color:rgb(71,204,252);
+    --colorD:white;
+
+
+
+
+    --h-size:clamp(20px,15vw,44px);
+    --sh-size:clamp(15px,10vw,28px);
+    --bd-text-size:clamp(10px,5vw,16px);
+
+    --h-color:rgb(255, 165, 0);
+    --sh-color:rgb(119,138,237);
+}
+
+

@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+    outline:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+ 
+    --primary-color: #031a32;
+    --success-color:#00bf8e;
+    --warning-color:yellow;
+    --danger-color:red;
+    --danger-vaiant--color:maroon;
+    --white-color:white;
+    --black-color:black;
+    --bg-color:blue;
+    --bg1-color:#2e3267;
+    --bg2-color:#031a32;
+
+    --container-width-1g:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+
+    --transition:all 400ms ease;
+
+}
+body{
+    font-family:Arial, sans-serif;
+    line-height: 1.7;
+    color: var(--white-color);
+    background-color: #031a32;
+   
+}
+.container{
+    width: var(--container-width-1g);
+    margin: 0 auto;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom: 4rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    line-height: 1.2;
+
+}
+h1{
+    font-size: 2.4rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+a{
+    color:white;
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+
+nav {
+    background-color: #031a32;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width:100vw;
+    z-index: 1;
+    top: 0;
+    height: 5rem;
+    font-size: 0.9rem;
+    gap:4rem;
+}
+ /*change navbar styles on scroll using js */
+ .window-scroll{
+    background: var(--bg1-color);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+ }
+ .nav_container{
+    height: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav button{
+    display:none;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-weight: bold;
+}
+.nav_menu a{
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+}
+.nav_menu a:hover{
+    color:orange;
+}
+
+/* Add a line below the link when hovered */
+.nav_menu a::after {
+content: "";
+display: block;
+position: absolute;
+left: 0;
+bottom: -2px; /* Adjust the position as needed */
+width: 100%;
+height: 2px; /* Height of the line */
+background-color: #fff; /* Color of the line */
+transform: scaleX(0); /* Initially, the line is not visible */
+transform-origin: center; /* Set the transform origin to center */
+transition: transform 0.3s ease; /* Add animation for smoother transition */
+}
+
+.nav_menu a:hover::after {
+transform: scaleX(1); /* When hovered, make the line visible */
+}
+
+/* Add a background color for the active link */
+.nav_menu a.active {
+background-color: #062744;
+/* Add animation for smoother transition */
+transition: background-color 0.3s ease;
+}
+
+/* Add a line below the active link */
+.nav_menu a.active::after {
+transform: scaleX(1); /* Make the line visible */
+}
+
+
+.school-info {
+    display: flex;
+    align-items: center;
+}
+
+.school-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/*====Tablets media queries==*/
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md)
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    /*NAVBAR*/
+    nav button{
+    display:inline-block;
+    background: transparent;
+    font-size: 1.8rem;
+    color:var(--white-color);
+    cursor: pointer;}
+    nav button#close-menu-btn{
+    display:none;
+    }
+    .nav_menu{
+        position:fixed;
+        top:5rem;
+        right:5%;
+        height: fit-content;
+        width: 18rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+    }
+    .nav_menu li{
+        width:100%;
+        height: 5.8rem;
+        animation: animateNavItem 400ms linear forwards;
+        transform-origin:top right;
+    
+    }
+    .nav_menu li:nth-child(2){
+        animation-delay: 200ms;
+    }
+    
+    .nav_menu li:nth-child(3){
+        animation-delay: 400ms;
+    }
+    
+    .nav_menu li:nth-child(4){
+        animation-delay: 600ms;
+    }
+    
+    
+    @keyframes animateNavItems {
+        0%{ 
+            transform: rotateZ(-90deg) rotateX(90deg)scale(0.1);
+    
+        }
+       100%{
+          transform: rotateZ(0)rotateX(0)scale(1);
+          opacity: 1;
+       }
+    }
+    .nav_menu li a{
+        background: var(--bg1-color);
+        box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    
+    }
+    .nav_menu li a:hover{
+        background:orange;
+        color: var(--white-color);
+    
+    }
+    
+    }
+    
+/*====Phone media queries==*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    /* Navbar */
+    .nav_menu {
+        left: 0;
+        right: 0;
+        width: 100%; /* Set the width to 100% to cover the whole screen */
+        margin: auto; /* Center the menu horizontally */
+        transform: translateX(0); /* Reset any previous translations */
+    }
+}
+

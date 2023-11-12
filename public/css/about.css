@@ -1,0 +1,506 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+}
+section{
+    padding: 0;
+    margin: 0;
+}
+/* main section styling */
+main {
+    background-color: white;
+}
+
+/* hero section styling */
+.hero {
+    min-height: 40vh;
+    background-image: url(../images/nalondo14.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero .content {
+    background: linear-gradient(
+        to right,
+        rgb(0, 0, 0, 0.8),
+        rgb(0, 0, 0, 0.5),
+        rgb(0, 0, 0, 0.8)
+    );
+    backdrop-filter: blur(5px);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .content .title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* school description styling */
+.school-desc {
+    color: black;
+}
+
+.school-desc .quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.school-desc .quote h1 {
+    position: relative;
+    font-size: 3rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 200%;
+        height: 5px;
+        top: 25%;
+        left: -220%;
+        background-color: black;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 200%;
+        height: 5px;
+        top: 25%;
+        left: 120%;
+        background-color: black;
+    }
+}
+
+.school-desc .text {
+    font-size: 1.2rem;
+}
+
+.school-desc .text p {
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+/* history section styling */
+.history {
+    max-width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.history .heading {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.history .chunks {
+    .beginning .title {
+        background-image: url(../images/nalondo1.jpeg);
+    }
+
+    .purpose .title {
+        background-image: url(../images/nalondo15.jpeg);
+    }
+
+    .community .title {
+        background-image: url(../images/nalondo11.jpeg);
+    }
+
+    .geolocation .title {
+        background-image: url(../images/achievement4.jpeg);
+    }
+
+    .chunk .title {
+        background-size: cover;
+        transform-origin: center;
+
+        transition: background-size 0.3s linear;
+
+        &:hover h3 {
+            background-color: var(--primary-color);
+            height: auto;
+
+            padding: 1rem;
+        }
+    }
+}
+
+.history .chunks .chunk {
+    display: flex;
+}
+
+.history .chunks .chunk > div {
+    flex: 0 0 50%;
+}
+
+.history .chunks .chunk .title {
+    display: grid;
+    place-items: center;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.history .chunks .chunk .title h3 {
+    color: orange;
+    font-size: 2rem;
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    cursor: pointer;
+    place-items: center;
+    backdrop-filter: blur(5px);
+    transition: 0.3s ease;
+}
+
+.history .chunks .chunk .description {
+    padding: 1rem;
+}
+
+.history .chunks .chunk .description p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* school values section styling */
+.school-values {
+    margin: 5rem auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+}
+
+.school-values .mmv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.school-values .mmv > div {
+    width: 90%;
+
+    flex: 1;
+    max-width: 80%;
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: all 0.5s linear;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+
+    &:hover {
+        background-color: var(--primary-color);
+        flex: 2;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    &:hover h3 {
+        transform: rotate(0);
+    }
+
+    &:hover p {
+        transform: translateX(0);
+        opacity: 1;
+        line-height: 2.5rem;
+    }
+
+    &:hover h3 {
+        text-decoration: underline;
+    }
+}
+
+.school-values .mmv div h3 {
+    transition: all 0.5s linear;
+
+    color: orange;
+
+    font-size: 1.5rem;
+}
+
+.school-values .mmv div p {
+    transition: all 0.5s;
+    opacity: 0;
+    font-size: 1.2rem;
+    color: white;
+    transform: translateX(500%);
+}
+
+/* core-values styling */
+.core-values {
+    flex: 0 0 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 60vh;
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+}
+
+.core-values h1 {
+    text-align: center;
+}
+
+.core-values ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: 700;
+    list-style: none;
+    flex-grow: 1;
+    counter-reset: li;
+    overflow: hidden;
+}
+
+.core-values ul li {
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    padding: 1rem 0;
+    transition: all 0.5s cubic-bezier(0.58, 0.29, 0.83, 0.67);
+    cursor: default;
+    transform: translateX(80%);
+    width: 80%;
+    text-align: center;
+    margin: 1rem 0;
+
+    &::before {
+        content: "0" counter(li);
+        counter-increment: li;
+        position: absolute;
+        background-color: white;
+        color: rgb(9, 9, 143);
+        left: -2rem;
+        top: -0.5rem;
+        padding: 1rem;
+        box-shadow: -9px 6px 5px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    &::after {
+        content: "";
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: orange;
+        transition: all 0.5s linear;
+        transform-origin: center;
+    }
+
+    &:hover::after {
+        width: 0;
+    }
+
+    &:hover {
+        width: 90%;
+        color: orange;
+    }
+}
+
+/* statistics section styling */
+.statistics {
+    background-image: url(../images/nalondo2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 40dvh;
+    display: grid;
+    place-items: center;
+    margin: 3rem 0;
+}
+
+.statistics .container {
+    background-color: rgba(0, 0, 64, 0.9);
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+.statistics .container .counters {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    min-width: 90%;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 3rem 0;
+    row-gap: 3rem;
+}
+
+.statistics .container .counters .counter {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: default;
+    min-width: 300px;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.statistics .container .counters .counter span {
+    color: orange;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.statistics .container .counters .counter h3 {
+    font-size: 2rem;
+}
+
+/* anthem section styling */
+
+.traditions .container {
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.traditions .container .toggle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.traditions .container .toggle .anthem {
+    background-color: var(--primary-color);
+    flex: 1;
+    padding: 1rem 0;
+    transition: 0.5s ease;
+
+    &:hover {
+        background-color: orange;
+    }
+}
+
+.traditions .container .toggle .anthem a {
+    color: white;
+}
+
+.traditions .container .toggle .prayer {
+    background-color: rgb(201, 201, 201);
+    flex: 1;
+    padding: 1rem 0;
+    transition: 0.5s ease;
+
+    &:hover {
+        background-color: orange;
+    }
+
+    &:hover a {
+        color: white;
+    }
+}
+
+.traditions .container .toggle .prayer a {
+    color: black;
+}
+
+.traditions .container .content {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+
+.traditions .container .content > div {
+    flex: 0 0 100%;
+    padding: 1.5rem 0;
+    background-color: white;
+    scroll-snap-align: start;
+    text-align: center;
+}
+
+.traditions .container .content > div h2 {
+    font-size: 2rem;
+}
+
+.traditions .container .content > div h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.traditions .container .content > div p {
+    font-size: 1.2rem;
+    padding: 1rem;
+
+    font-style: italic;
+    color: rgb(82, 82, 82);
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .history .chunks .chunk {
+        flex-direction: column;
+
+        .title h3 {
+            background-color: rgba(0, 0, 57);
+            padding: 0.5rem;
+        }
+
+        .description p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .history .chunks {
+        .purpose,
+        .geolocation {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .school-desc .text {
+        font-size: 1rem;
+    }
+}

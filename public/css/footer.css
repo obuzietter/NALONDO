@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2e3267;
+    color: #fff;
+    text-align: center;
+    padding: 7rem;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.footer-line {
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.footer-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-icons-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons-row a {
+    margin: 10px;
+    font-size: 24px;
+}
