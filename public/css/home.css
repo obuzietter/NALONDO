@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
 }
 
@@ -501,8 +501,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     overflow-x: hidden;
-    border: 1px solid red;
-    gap: 1rem;
+    /* border: 1px solid red; */
+    gap: 2rem;
 }
 
 .counters .counter {

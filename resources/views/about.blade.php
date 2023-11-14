@@ -10,19 +10,19 @@
     <link rel="stylesheet" href="/css/navbar-footer.css">
     <!-- <link rel="stylesheet" href="{{ asset('css/navbar.css') }}"> -->
     <!-- <link rel="stylesheet" href="{{ asset('/css/footer.css') }}"> -->
-    <script src="{{url('/js/about.js')}}" defer></script>
 
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
     <!-- <link rel="stylesheet" href="/css/footer.css"> -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <script src="{{url('/js/about.js')}}" defer></script>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
 </head>
 
 <body>
-@include('navbar')
+    @include('navbar')
     <main>
         <section class="hero">
             <div class="content">
@@ -133,15 +133,16 @@
         </section>
         <section class="school-values">
             <div class="mmv">
+                <div class="motto">
+                    <h3>MOTTO</h3>
+                    <p>Learning for empowerment</p>
+                </div>
                 <div class="mission">
                     <h3>MISSION</h3>
                     <p>To become a school of excellence in education through commitment, diligence and integrity in the
                         country.</p>
                 </div>
-                <div class="motto">
-                    <h3>MOTTO</h3>
-                    <p>Learning for empowerment</p>
-                </div>
+
                 <div class="vision">
                     <h3>VISION</h3>
                     <p>To attain academic excellence and bring out talent in young people to help the develop mentally,

@@ -1,16 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
     animation-name: fade-in;
     animation-duration: 1.5s;
     animation-delay: 0.1s;
+    /* border: 2px solid red; */
 }
-section{
+
+/* section {
     padding: 0;
     margin: 0;
-}
+} */
+
 /* main section styling */
 main {
     background-color: white;
@@ -18,7 +21,7 @@ main {
 
 /* hero section styling */
 .hero {
-    min-height: 40vh;
+    min-height: 75vh;
     background-image: url(../images/nalondo14.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,14 +29,12 @@ main {
 }
 
 .hero .content {
-    background: linear-gradient(
-        to right,
-        rgb(0, 0, 0, 0.8),
-        rgb(0, 0, 0, 0.5),
-        rgb(0, 0, 0, 0.8)
-    );
+    background: linear-gradient(to right,
+            rgb(0, 0, 0, 0.8),
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.8));
     backdrop-filter: blur(5px);
-    height: 40vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +90,7 @@ main {
 
 .school-desc .text p {
     margin: auto;
+    width: clamp(300px, 80%, 1200px);
     text-align: center;
     font-style: italic;
     padding-bottom: 2rem;
@@ -128,9 +130,9 @@ main {
         transform-origin: center;
 
         transition: background-size 0.3s linear;
-
+        border-radius: 20px;
         &:hover h3 {
-            background-color: var(--primary-color);
+            background-color: var(--prim-color);
             height: auto;
 
             padding: 1rem;
@@ -142,7 +144,7 @@ main {
     display: flex;
 }
 
-.history .chunks .chunk > div {
+.history .chunks .chunk>div {
     flex: 0 0 50%;
 }
 
@@ -158,7 +160,7 @@ hr {
 .history .chunks .chunk .title h3 {
     color: orange;
     font-size: 2rem;
-
+    border-radius: 20px;
     height: 100%;
     width: 100%;
     display: grid;
@@ -194,30 +196,34 @@ hr {
     margin-bottom: 5rem;
 }
 
-.school-values .mmv > div {
+.school-values .mmv>div {
     width: 90%;
-
+    /* background-color: var(--prim-color); */
     flex: 1;
     max-width: 80%;
     overflow: hidden;
     cursor: pointer;
 
-    transition: all 0.5s linear;
-    border: 2px solid var(--primary-color);
+
+    border: 2px solid var(--prim-color);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 2rem 0;
+    /* gap: 2rem; */
     padding: 2rem;
+    transition: all 0.5s linear;
 
     &:hover {
-        background-color: var(--primary-color);
-        flex: 2;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-        margin-left: 2rem;
+        background-color: var(--prim-color);
+        flex: 3;
+        /* margin-top: 1.5rem; */
+        /* margin-bottom: 1.5rem; */
+        /* margin-left: 2rem; */
+        /* scale: 1.05; */
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     }
 
@@ -228,7 +234,7 @@ hr {
     &:hover p {
         transform: translateX(0);
         opacity: 1;
-        line-height: 2.5rem;
+        /* line-height: 2.5rem; */
     }
 
     &:hover h3 {
@@ -249,7 +255,7 @@ hr {
     opacity: 0;
     font-size: 1.2rem;
     color: white;
-    transform: translateX(500%);
+    /* transform: translateX(500%); */
 }
 
 /* core-values styling */
@@ -260,7 +266,7 @@ hr {
     flex-direction: column;
 
     min-height: 60vh;
-    border: 2px solid var(--primary-color);
+    /* border: 2px solid var(--prim-color); */
     padding: 2rem;
 }
 
@@ -282,7 +288,7 @@ hr {
 }
 
 .core-values ul li {
-    background-color: var(--primary-color);
+    background-color: var(--prim-color);
     color: white;
     position: relative;
     padding: 1rem 0;
@@ -292,17 +298,20 @@ hr {
     width: 80%;
     text-align: center;
     margin: 1rem 0;
+    border-radius: 10px;
 
     &::before {
         content: "0" counter(li);
         counter-increment: li;
         position: absolute;
         background-color: white;
-        color: rgb(9, 9, 143);
+        color: var(--prim-color);
         left: -2rem;
         top: -0.5rem;
         padding: 1rem;
         box-shadow: -9px 6px 5px 1px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        transition: all 0.5s linear;
     }
 
     &::after {
@@ -312,9 +321,14 @@ hr {
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: orange;
+        background-color: var(--h-color);
         transition: all 0.5s linear;
         transform-origin: center;
+        border-radius: 10px;
+    }
+
+    &:hover::before {
+        color: var(--sec-color);
     }
 
     &:hover::after {
@@ -323,7 +337,16 @@ hr {
 
     &:hover {
         width: 90%;
-        color: orange;
+        color: var(--h-color);
+    }
+}
+
+.core-values ul li:nth-child(even) {
+    &::before {
+        left: calc(100% - 2rem);
+        box-shadow: 9px 6px 5px 1px rgba(0, 0, 0, 0.75);
+        top: -0.5rem;
+
     }
 }
 
@@ -338,13 +361,14 @@ hr {
     display: grid;
     place-items: center;
     margin: 3rem 0;
+    border-radius: 20px;
 }
 
 .statistics .container {
-    background-color: rgba(0, 0, 64, 0.9);
+    background-color: rgb(119,138,237, .8);
     width: 100%;
     height: 100%;
-
+    border-radius: 20px;
     display: grid;
     place-items: center;
 }
@@ -394,24 +418,27 @@ hr {
 
 .traditions .container .toggle {
     display: flex;
-    justify-content: center;
+    /* justify-content: space-evenly; */
     text-align: center;
-    font-size: 2rem;
+    gap: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 a {
     text-decoration: none;
 }
-
+.traditions .container .toggle > div{
+    border-radius: 10px;
+}
 .traditions .container .toggle .anthem {
-    background-color: var(--primary-color);
+    background-color: var(--sec-color);
     flex: 1;
     padding: 1rem 0;
     transition: 0.5s ease;
 
     &:hover {
-        background-color: orange;
+        background-color: var(--tertiary-color);
     }
 }
 
@@ -426,7 +453,7 @@ a {
     transition: 0.5s ease;
 
     &:hover {
-        background-color: orange;
+        background-color: var(--tertiary-color);
     }
 
     &:hover a {
@@ -445,7 +472,7 @@ a {
     scroll-snap-type: mandatory;
 }
 
-.traditions .container .content > div {
+.traditions .container .content>div {
     flex: 0 0 100%;
     padding: 1.5rem 0;
     background-color: white;
@@ -453,16 +480,16 @@ a {
     text-align: center;
 }
 
-.traditions .container .content > div h2 {
+.traditions .container .content>div h2 {
     font-size: 2rem;
 }
 
-.traditions .container .content > div h3 {
+.traditions .container .content>div h3 {
     font-size: 1.5rem;
     font-style: italic;
 }
 
-.traditions .container .content > div p {
+.traditions .container .content>div p {
     font-size: 1.2rem;
     padding: 1rem;
 
@@ -471,10 +498,11 @@ a {
 }
 
 @keyframes fade-in {
-    from{
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
@@ -494,6 +522,7 @@ a {
     }
 
     .history .chunks {
+
         .purpose,
         .geolocation {
             flex-direction: column-reverse;
