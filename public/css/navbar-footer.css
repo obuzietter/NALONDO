@@ -20,6 +20,7 @@
     .logo{
       font-size: 1.5rem;
       font-weight: 600;
+      color: var(--h-color);
     }
 
     .menu {
@@ -28,13 +29,14 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
-      border: 2px solid red;
+      /* border: 2px solid red; */
     }
 
     .menu>li {
       margin: 0 .7rem;
-      border: 1px solid green;
-      /* width: max-content; */
+      /* border: 1px solid green; */
+      text-align: center;
+      
       
     }
     .menu>li>a {
@@ -51,11 +53,12 @@
         position: absolute;
         /* display: block; */
         left: 0;
-        bottom: -3px;
+        bottom: -4px;
         width: 0;
         height: 3px;
         background-color: var(--h-color);
         transition: width 0.1s ease-in-out;
+        border-radius: 10px;
         
       }
       &:hover{
