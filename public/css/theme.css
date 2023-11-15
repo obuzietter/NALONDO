@@ -1,20 +1,71 @@
+@font-face {
+    font-family: Aileron-bold;
+    src: url(../fonts/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Aileron-medium;
+    src: url(../fonts/Aileron-Light.otf);
+}
+
+
 :root{
+    --heading-font:Aileron-medium;
+    --body-font:Roboto;
 
-     
-    --prim-color:rgb(9,9,143);
-    --sec-color:rgb(119,138,237);
-    --tertiary-color:rgb(71,204,252);
-    --colorD:white;
+      /* used to create a shade of color on top of images */
+      --prim:9,9,143;
+      --sec:9,9,210;
+      --tertiary:71,204,252;
+      --D:255,255,255;
+      --E:0,0,0;
 
 
 
+     /* background colors */
+    /* --prim-color:rgba(9,9,143);
+    --sec-color:rgba(9, 9, 210);
+    --tertiary-color:rgba(71,204,252); */
 
+
+    /* background-colors */
+    --prim-color:rgba(var(--prim));
+    --sec-color:rgba(var(--sec));
+    --tertiary-color:rgba(var(--tertiary));
+    --colorD:rgba(var(--D));
+    --colorE:rgba(var(--E));
+
+
+  
+
+   
+
+
+    /* font-sizes */
     --h-size:clamp(20px,15vw,44px);
     --sh-size:clamp(15px,10vw,28px);
+    --th-size:clamp(12px,5vw,20px);
     --bd-text-size:clamp(10px,5vw,16px);
 
+
+    /* font colors */
     --h-color:rgb(255, 165, 0);
     --sh-color:rgb(119,138,237);
 }
 
+
+
+
+body,p,span,a,li{
+    font-family:var(--body-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading-font);
+}
 
