@@ -1,4 +1,22 @@
+@font-face {
+    font-family: Aileron-bold;
+    src: url(../fonts/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Aileron-medium;
+    src: url(../fonts/Aileron-Light.otf);
+}
+
+
 :root{
+    --heading-font:Aileron-medium;
+    --body-font:Roboto;
 
       /* used to create a shade of color on top of images */
       --prim:9,9,143;
@@ -31,6 +49,7 @@
     /* font-sizes */
     --h-size:clamp(20px,15vw,44px);
     --sh-size:clamp(15px,10vw,28px);
+    --th-size:clamp(12px,5vw,20px);
     --bd-text-size:clamp(10px,5vw,16px);
 
 
@@ -39,4 +58,14 @@
     --sh-color:rgb(119,138,237);
 }
 
+
+
+
+body,p,span,a,li{
+    font-family:var(--body-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading-font);
+}
 
