@@ -111,7 +111,7 @@
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
                     <img src="https://img.freepik.com/free-photo/confident-businessman-smiles-city-night-generated-by-ai_188544-26175.jpg" style="width:100%">
-                    <div class="text">SCHOOL CAPTAIN</div>
+                    <div class="text">THE SCHOOL CAPTAIN</div>
                 </div>
 
                 <div class="mySlides fade">
@@ -193,29 +193,7 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer">
-            <div class="contact-info">
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-envelope"></i> Email:
-                    info@nalondohighschool.com</p>
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-phone"></i> Phone: +1
-                    (123) 456-7890</p>
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-map-marker-alt"></i>
-                    Address: 123 School Street, City, Country</p>
-            </div>
-            <div class="footer-line"></div>
-            <div class="footer-icons-container">
-                <div class="footer-icons-row">
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div style="color: #fff;">
-                <p style="color:var(--background-color);">&copy; 2023 NALONDO HIGH SCHOOL. ALL RIGHTS RESERVED.</p>
-            </div>
-        </div>
-    </footer>
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

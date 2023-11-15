@@ -998,24 +998,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="contact-info">
-            <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-envelope"></i> Email: info@nalondohighschool.com</p>
-            <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-phone"></i> Phone: +1 (123) 456-7890</p>
-            <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-map-marker-alt"></i> Address: 123 School Street, City, Country</p>
-        </div>
-        <div class="footer-line"></div>
-        <div class="footer-icons-container">
-            <div class="footer-icons-row">
-                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-        <div style="color: #fff;">
-            <p style="color:var(--background-color);">&copy; 2023 NALONDOHIGH SCHOOL. ALL RIGHTS RESERVED.</p>
-        </div>
-    </div>
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

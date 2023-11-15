@@ -10,7 +10,7 @@
         <li><a href="{{ route('faculty') }}">Faculty</a></li>
         <li><a href="{{ route('studentLife') }}">Student Life</a></li>
         <li><a href="{{ route('community') }}">Community</a></li>
-        <li><a href="{{ route('achievements') }}">Achievements</a></li>
+        <!-- <li><a href="{{ route('achievements') }}">Achievements</a></li> -->
         <li><a href="{{ route('contact') }}">Contact Us</a></li>
     </ul>
 </header>

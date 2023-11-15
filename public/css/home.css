@@ -7,7 +7,9 @@
 }
 
 /* main section styling */
-
+html{
+    font-size: 16px !important;
+}
 /* landing section styling */
 .landing {
     min-height: 75vh;
@@ -125,6 +127,7 @@
     text-align: center;
     /* margin: 4rem 0; */
     /* border: 1px solid black; */
+    
     background-color: var(--prim-color);
     padding: 1.5rem;
     border-radius: 1rem;
@@ -157,7 +160,7 @@
 }
 
 .brief .card .desc p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 /* news section styling */
@@ -408,11 +411,11 @@
 }
 
 .events .event-items .event .desc h3 {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 .events .event-items .event .desc p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
 
 }
 

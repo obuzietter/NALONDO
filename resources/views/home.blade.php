@@ -8,12 +8,12 @@
     <title>Nalondo - Home</title>
     <!-- <link rel="stylesheet" href="/css/navbar-footer.css"> -->
     <link rel="stylesheet" href="{{url('/css/navbar-footer.css')}}">
-    <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- <link rel="stylesheet" href=".p/css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
     <script src="/js/home.js" defer></script>
+    <link rel="stylesheet" href="/css/home.css">
 
 </head>
 
@@ -226,30 +226,7 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer">
-            <div class="contact-info">
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-envelope"></i> Email:
-                    info@nalondohighschool.com</p>
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-phone"></i> Phone: +1
-                    (123) 456-7890</p>
-                <p style="color: #fff; margin-bottom: 20px;font-size: 15px;"><i class="fas fa-map-marker-alt"></i>
-                    Address: 123 School Street, City, Country</p>
-            </div>
-            <div class="footer-line"></div>
-            <div class="footer-icons-container">
-                <div class="footer-icons-row">
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div style="color: #fff;">
-                <p style="color:var(--background-color);">&copy; 2023 NALONDO HIGH SCHOOL. ALL RIGHTS RESERVED.</p>
-            </div>
-        </div>
-
-    </footer>
+    @include('footer')
 </body>
 <script>
     var slides = document.querySelectorAll('.slide');
