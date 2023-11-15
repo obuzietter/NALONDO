@@ -32,8 +32,8 @@
                 <source src="vid/vid.mov" type="mov">
             </video>
 
-            <h1><span>PROJECTS</span> YOU REALLY<br>
-                <span>NEED</span> TO KNOW ABOUT
+            <h1><span>PROJECTS</span> YOU <span>MUST</span> <br>
+                KNOW ABOUT
             </h1>
 
             <button><span></span><a href="#projects">VIEW</a></button>

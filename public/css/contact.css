@@ -62,7 +62,7 @@ body{
     /* font-size:clamp(20px,60vw,44px);
      */
 
-     font-size:var(--sec-heading);
+     font-size:var(--h-size);
 
 }
 

@@ -1,19 +1,40 @@
 :root{
 
-     
-    --prim-color:rgba(9,9,143);
+      /* used to create a shade of color on top of images */
+      --prim:9,9,143;
+      --sec:9,9,210;
+      --tertiary:71,204,252;
+      --D:255,255,255;
+      --E:0,0,0;
+
+
+
+     /* background colors */
+    /* --prim-color:rgba(9,9,143);
     --sec-color:rgba(9, 9, 210);
-    --tertiary-color:rgba(71,204,252);
-    --colorD:white;
-    --colorE:black;
+    --tertiary-color:rgba(71,204,252); */
 
 
+    /* background-colors */
+    --prim-color:rgba(var(--prim));
+    --sec-color:rgba(var(--sec));
+    --tertiary-color:rgba(var(--tertiary));
+    --colorD:rgba(var(--D));
+    --colorE:rgba(var(--E));
 
 
+  
+
+   
+
+
+    /* font-sizes */
     --h-size:clamp(20px,15vw,44px);
     --sh-size:clamp(15px,10vw,28px);
     --bd-text-size:clamp(10px,5vw,16px);
 
+
+    /* font colors */
     --h-color:rgb(255, 165, 0);
     --sh-color:rgb(119,138,237);
 }
