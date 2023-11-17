@@ -9,6 +9,7 @@
           font-size: 15px;
           line-height: 24px;
           color: var(--colorD);
+          scroll-snap-align: center;
       }
 
       .site-footer hr {

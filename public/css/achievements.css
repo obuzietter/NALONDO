@@ -178,12 +178,13 @@ nav button{
     }
 /*====HEADER==*/
 header{
-    margin-top: 5rem;
-    position: relative;
-    top: 5rem;
-    overflow:hidden;
-    height: 70vh;
-    margin-bottom: 5rem;
+    /* margin-top: 5rem; */
+    /* position: relative; */
+    /* top: 5rem; */
+    /* overflow:hidden; */
+    /* height: 70vh; */
+    /* margin-bottom: 5rem; */
+    /* border: 2px solid red; */
 }
 .header_container{
     display:grid;
@@ -408,8 +409,11 @@ display:none;
 }
 /*header */
 header{
-    height: 52vh;
-    margin-bottom: 4rem;
+    /* height: 52vh; */
+    /* margin-bottom: 4rem; */
+}
+.h{
+    padding: 2rem 0;
 }
 .header_container{
     gap:0;
