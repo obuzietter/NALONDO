@@ -1,5 +1,5 @@
 const counters = document.querySelectorAll(".count");
-const speed = 64;
+const speed = 32;
 const observer = new IntersectionObserver(
     (entries) => {
         entries.forEach((entry) => {
