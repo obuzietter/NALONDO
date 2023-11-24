@@ -54,9 +54,9 @@ const animationObserver = new IntersectionObserver(
         threshold: 0.1,
     }
 );
-observerItems.forEach((ob) => {
-    animationObserver.observe(ob);
-});
+// observerItems.forEach((ob) => {
+//     animationObserver.observe(ob);
+// });
 
 document.getElementById("btn").addEventListener("click", ()=>{
     location.href = "/about"

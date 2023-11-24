@@ -166,15 +166,15 @@
             <div class="container">
                 <div class="counters">
                     <div class="counter">
-                        <span class="count" data-target="32">0</span>
+                        <span class="count" data-target="32">32</span>
                         <h3>TEACHERS</h3>
                     </div>
                     <div class="counter">
-                        <span class="count" data-target="662">0</span>
+                        <span class="count" data-target="662">662</span>
                         <h3>STUDENTS</h3>
                     </div>
                     <div class="counter">
-                        <span class="count" data-target="163">0</span>
+                        <span class="count" data-target="163">163</span>
                         <h3>CANDIDATES</h3>
                     </div>
                 </div>
@@ -229,56 +229,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
-        window.addEventListener('scroll', () => {
-            document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
-        })
-
-        //show/hide nav menu
-        const menu = document.querySelector(".nav_menu");
-        const menuBtn = document.querySelector("#open-menu-btn");
-        const closeBtn = document.querySelector("#close-menu-btn");
-
-
-
-        menuBtn.addEventListener('click', () => {
-            menu.style.display = "flex";
-            closeBtn.style.display = "inline-block";
-            menuBtn.style.display = "none";
-        })
-
-        //close navbar
-        const closeNav = () => {
-            menu.style.display = "none";
-            closeBtn.style.display = "none";
-            menuBtn.style.display = "inline-block";
-
-
-        }
-        closeBtn.addEventListener('click', closeNav)
-    </script>
+    
 
 </body>
 
 </html>
-<!-- <script>
-    const listItems = document.querySelectorAll(".core-value");
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-
-                    entry.target.style.transform = "translateX(0)"
-                } else {
-                    entry.target.style.transform = "translateX(80%)";
-                }
-
-            });
-        }, {
-            threshold: 0.1,
-        }
-    );
-    listItems.forEach((li) => {
-        observer.observe(li);
-    });
-</script> -->
