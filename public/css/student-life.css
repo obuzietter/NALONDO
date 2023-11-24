@@ -290,17 +290,18 @@ main .religion .container .background-clip {
 
 .accomodation .boxes .box {
     margin: 1rem;
-
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.accomodation .boxes img {
+.accomodation .boxes .box img {
     width: 100%;
-    transition: .3s ease;
+    transition: .2s linear;
     border-radius: 10px;
 
     &:hover {
         scale: 1.09;
-        transform: rotateZ(1deg);
+        /* transform: rotateZ(1deg); */
         box-shadow: 2px 3px 36px -9px rgba(0, 0, 0, 0.75);
     }
 }
