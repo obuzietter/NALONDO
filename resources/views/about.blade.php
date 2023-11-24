@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/theme.css">
     <link rel="stylesheet" href="/css/about.css">
     <script src="{{url('/js/about.js')}}" defer></script>
+    <script src="/js/counter.js" defer></script>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
 </head>

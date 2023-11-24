@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
     <script src="/js/home.js" defer></script>
     <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/counter.js" defer></script>
 
 </head>
 
@@ -44,7 +45,7 @@
                         OUR MOTTO
                     </div>
                     <div class="banner">
-                        WE USE COMMON SENSE
+                    LEARNING FOR EMPOWERMENT
                     </div>
                 </div>
 
@@ -213,15 +214,15 @@
         </section>
         <section class="counters">
             <div class="counter ob">
-                <span class="count" data-target="32">32</span>
+                <span class="count" id="teachers" data-target="32">32</span>
                 <h3>TEACHERS</h3>
             </div>
             <div class="counter ob">
-                <span class="count" data-target="662">662</span>
+                <span class="count" id="students" data-target="662">662</span>
                 <h3>STUDENTS</h3>
             </div>
             <div class="counter ob">
-                <span class="count" data-target="163">163</span>
+                <span class="count" id="candidates" data-target="163">163</span>
                 <h3>CANDIDATES</h3>
             </div>
         </section>
