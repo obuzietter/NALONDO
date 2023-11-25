@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/student-life.css">
     <link rel="stylesheet" href="/css/student-leader.css">
     <script src="/js/student-leader.js" defer></script>
+    <script src="/js/animation-observer.js" defer></script>
 
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
     <!-- <link rel="stylesheet" href="/css/footer.css"> -->
@@ -15,6 +16,7 @@
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
     <link rel="stylesheet" href="/css/navbar-footer.css">
+    <link rel="stylesheet" href="/css/animation-observer.css">
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                 {{-- <div class="image">
                     <img src="/images/background.jpg" alt="">
                 </div> --}}
-                <div class="description">
+                <div class="description aob">
                     <h3 class="h3">STUDENT LIFE</h3>
                     <p class="para">
                         The student-life webpage on our high school's website serves as a vibrant hub of information and connection for our students. Here, you'll discover a treasure trove of resources and activities that enrich your high school experience. Stay up-to-date with the latest events, club meetings, and sports fixtures through our interactive calendar. Explore the diverse array of student organizations and clubs that cater to a wide range of interests, from the arts to STEM and beyond. </p>

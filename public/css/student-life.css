@@ -50,7 +50,8 @@ main .hero .banner img {
 }
 
 main .hero .banner h1 {
-    /* border: 2px solid red; */
+    
+    text-align: center;
     font-size: var(--h-size);
 }
 
@@ -78,7 +79,7 @@ main .brief {
 main .brief .box {
     min-height: 100vh;
     background-color: rgba(var(--D), .9);
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +93,7 @@ main .brief .box {
         /* flex: 1; */
         /* max-width: 50%; */
         /* min-width: 300px; */
+        /* overflow: hidden; */
         height: auto;
         position: relative;
         flex-direction: column;
@@ -103,7 +105,7 @@ main .brief .box {
         color: white;
         border-top-right-radius: 16px;
         border-bottom-right-radius: 16px;
-
+        transition: .5s ease;
 
         .h3 {
             text-align: center;
@@ -147,7 +149,7 @@ main .clubs .cards {
 
     /* flex-wrap: wrap; */
     display: grid;
-    padding: 2rem;
+    /* padding: 2rem; */
     /* gap: 1rem; */
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
 }
