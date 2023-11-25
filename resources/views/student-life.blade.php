@@ -24,15 +24,15 @@
             <div class="banner">
                 <h1><span class="or-text">SEE</span> THE <span class="or-text">STUDENT</span> LIFE</h1>
                 <a href="#brief">
-                <img src="/icons/down-arrow.png" alt="" width="50px">
+                    <img src="/icons/down-arrow.png" alt="" width="50px">
                 </a>
             </div>
         </section>
         <section class="brief" id="brief">
             <div class="box">
-                <div class="image">
+                {{-- <div class="image">
                     <img src="/images/background.jpg" alt="">
-                </div>
+                </div> --}}
                 <div class="description">
                     <h3 class="h3">STUDENT LIFE</h3>
                     <p class="para">
@@ -98,10 +98,8 @@
         <section class="record">
             <div class="banner">
                 <h1>
-                    <marquee behavior="scroll" direction="">
-                    HIGHEST KCSE SCORE EVER ACHIEVED
-                    <br>
-                    10.5
+                    <marquee behavior="scroll" direction="" scrollamount="24">
+                        <div>HIGHEST KCSE SCORE EVER ACHIEVED <span style="color: var(--h-color); font-weight: bold;">10.5</span></div>
                     </marquee>
                 </h1>
             </div>
@@ -166,36 +164,49 @@
             <hr>
             <div class="boxes">
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1543.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1520.jpg" alt="">
                 </div>
-
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/long-hallway-with-blue-doors-light-ceiling_1340-32511.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1529.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/architecture-modern-city-building-dusk-generative-ai_188544-8013.jpg" alt="">
                 </div>
-                <div class="box"><img src="https://img.freepik.com/free-photo/view-empty-football-locker-room_23-2150885819.jpg" alt=""></div>
-                <div class="box"><img src="https://img.freepik.com/free-photo/long-school-corridor-with-locker_587448-4971.jpg" alt=""></div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
+                    <img src="https://img.freepik.com/free-photo/view-empty-football-locker-room_23-2150885819.jpg" alt=""></div>
+                <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
+                    <img src="https://img.freepik.com/free-photo/long-school-corridor-with-locker_587448-4971.jpg" alt=""></div>
+                <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/empty-corridor-leads-modern-illuminated-entrance-hall-generated-by-ai_188544-29226.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/diminishing-perspective-modern-office-corridor-reflects-design-generated-by-ai_188544-27897.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/view-empty-football-locker-room_23-2150885807.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/luxury-modern-home-with-wooden-flooring-glass-generated-by-ai_188544-26710.jpg" alt="">
                 </div>
                 <div class="box">
+                    <div class="house-name">AMUGUNE HOUSE</div>
                     <img src="https://img.freepik.com/free-photo/blue-yellow-sunset-cityscape-high-up-generated-by-ai_188544-27807.jpg" alt="">
                 </div>
             </div>

@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
+body {
+    /* background-image: url(../images/assemble.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /* main section styling */
 main .hero {
     background-image: url(../images/achievement2.jpeg);
@@ -18,7 +27,7 @@ main .hero {
 }
 
 main .hero .banner {
-    
+
     margin: 0;
     min-height: 100vh;
     /* display: grid;
@@ -30,74 +39,67 @@ main .hero .banner {
     color: white;
     /* background-color: rgb(1, 1, 90, .5); */
     background: linear-gradient(to bottom,
-            rgba(var(--prim), 0),
+            rgba(var(--prim), .5),
             rgba(var(--prim), 1));
     /* font-size: 2rem; */
 
 }
-main .hero .banner img{
+
+main .hero .banner img {
     animation: float 3s ease-in-out infinite;
 }
-main .hero .banner h1{
+
+main .hero .banner h1 {
     /* border: 2px solid red; */
     font-size: var(--h-size);
 }
-main .hero .or-text{
+
+main .hero .or-text {
     color: var(--h-color);
     display: inline;
     /* letter-spacing: 10px; */
 }
 
+/*brief section styling */
 main .brief {
-    /* padding: 20vh; */
     min-height: 100vh;
-    /* scroll-padding-top: 5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
-
+    background-image: url(../images/assemble.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-color: rgba(var(--tertiary), .5); */
+    
 }
 
 main .brief .box {
-
-    width: 70%;
-
+    min-height: 100vh;
+    background-color: rgba(var(--D), .9);
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     row-gap: 1rem;
     flex-wrap: wrap;
     padding: 4rem 0;
-    /* border: 1px solid red; */
-
-    .image {
-
-        /* flex: 0 0 30%; */
-        max-width: 50%;
-        min-width: 250px;
-
-
-    }
-
-    .image img {
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 16px;
-        border-bottom-left-radius: 16px;
-    }
-
+    
     .description {
+        width: clamp(370px, 50%, 70%); 
         display: flex;
-        flex: 1;
+        /* flex: 1; */
         /* max-width: 50%; */
-        min-width: 300px;
-
+        /* min-width: 300px; */
+        height: auto;
+        position: relative;
         flex-direction: column;
         justify-content: center;
         /* text-align: justify; */
         padding: 2rem;
         font-size: 1.2rem;
-        background-color: #0d013a;
+        background-color: var(--prim-color);
         color: white;
         border-top-right-radius: 16px;
         border-bottom-right-radius: 16px;
@@ -105,6 +107,20 @@ main .brief .box {
 
         .h3 {
             text-align: center;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 1rem;
+            height: 110%;
+            background-color: var(--h-color);
+
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
         }
 
 
@@ -115,6 +131,8 @@ main .brief .box {
 main .clubs {
     display: flex;
     flex-direction: column;
+    /* background-color: rgba(var(--tertiary), .8); */
+    /* background-color: beige; */
 }
 
 main .clubs .heading {
@@ -129,7 +147,7 @@ main .clubs .cards {
 
     /* flex-wrap: wrap; */
     display: grid;
-    padding: 2rem 0;
+    padding: 2rem;
     /* gap: 1rem; */
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
 }
@@ -191,6 +209,7 @@ main .clubs .cards .card .desc p {
 main .record .banner {
     width: 100%;
     padding: 3rem 0;
+    /* background-color: rgba(var(--D), .9); */
 
 }
 
@@ -213,6 +232,8 @@ main .record .banner h1 {
 main .student-leaders {
     /* padding: 3rem; */
     /* border: 3px solid red; */
+    /* background-color: rgba(var(--tertiary), .9); */
+    padding-bottom: 3rem;
 }
 
 main .student-leaders .heading {
@@ -223,7 +244,8 @@ main .student-leaders .heading {
 /* religion section styling */
 main .religion {
     /* min-height: fit-content; */
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    /* background-color: rgba(var(--tertiary), .9); */
     /* border: 3px solid green; */
     /* border: 1px solid red; */
 }
@@ -251,6 +273,7 @@ main .religion .container .text {
     align-items: center;
     justify-content: center;
     border-radius: 0;
+
     .animate-character {
 
         background-image: linear-gradient(-225deg,
@@ -292,10 +315,14 @@ main .religion .container .background-clip {
 }
 
 /* accomodation section styling */
-
+main .accomodation {
+    
+    /* background-color: rgba(var(--sec), .9); */
+    
+}
 .accomodation .title {
     padding: 2rem 0;
-
+    
 }
 
 .accomodation .title h1 {
@@ -307,8 +334,10 @@ main .religion .container .background-clip {
 .accomodation .boxes {
     margin: 3rem 0;
     padding: 2rem 0;
-    columns: 4;
-    column-gap: 0;
+    /* columns: 4;
+    column-gap: 0; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
 
 }
 
@@ -316,18 +345,49 @@ main .religion .container .background-clip {
     margin: 1rem;
     border-radius: 10px;
     overflow: hidden;
+    height: 375px;
+    position: relative;
+    cursor: default;
+
+    &:hover img {
+        scale: 1.1;
+        /* transform: rotateZ(1deg); */
+        box-shadow: 2px 3px 36px -9px rgba(0, 0, 0, 0.75);
+    }
+
+    &:hover .house-name {
+        background-color: var(--h-color);
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+
+    }
+}
+
+.accomodation .boxes .box .house-name {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
+    z-index: 4;
+    padding: 1rem .5rem;
+    color: var(--colorD);
+    font-size: var(--sh-size);
+    text-align: center;
+    transition: .3s ease;
+    width: 100%;
+    /* height: 100%; */
 }
 
 .accomodation .boxes .box img {
     width: 100%;
+    height: 100%;
     transition: .2s linear;
     border-radius: 10px;
 
-    &:hover {
-        scale: 1.09;
-        /* transform: rotateZ(1deg); */
-        box-shadow: 2px 3px 36px -9px rgba(0, 0, 0, 0.75);
-    }
+
 }
 
 /* keyframe animations */
