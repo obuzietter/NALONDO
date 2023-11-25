@@ -21,9 +21,14 @@
     @include('navbar')
     <main>
         <section class="hero">
-            <h1>SEE THE STUDENT LIFE</h1>
+            <div class="banner">
+                <h1><span class="or-text">SEE</span> THE <span class="or-text">STUDENT</span> LIFE</h1>
+                <a href="#brief">
+                <img src="/icons/down-arrow.png" alt="" width="50px">
+                </a>
+            </div>
         </section>
-        <section class="brief">
+        <section class="brief" id="brief">
             <div class="box">
                 <div class="image">
                     <img src="/images/background.jpg" alt="">
@@ -92,9 +97,12 @@
         </section>
         <section class="record">
             <div class="banner">
-                <h1>HIGHEST KCSE SCORE EVER ACHIEVED
+                <h1>
+                    <marquee behavior="scroll" direction="">
+                    HIGHEST KCSE SCORE EVER ACHIEVED
                     <br>
                     10.5
+                    </marquee>
                 </h1>
             </div>
         </section>

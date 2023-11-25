@@ -81,7 +81,7 @@ html{
     /* border:2px solid red; */
     text-align: center;
     z-index:1;
-    font-size:var(--fs-xl);
+    font-size:var(--h-size);
 }
 
 .intro-div button{
