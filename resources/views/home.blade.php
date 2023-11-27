@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nalondo - Home</title>
     <!-- <link rel="stylesheet" href="/css/navbar-footer.css"> -->
-    <link rel="stylesheet" href="{{url('/css/navbar-footer.css')}}">
+    <link rel="stylesheet" href="{{ url('/css/navbar-footer.css') }}">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- <link rel="stylesheet" href=".p/css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
@@ -45,7 +45,7 @@
                         OUR MOTTO
                     </div>
                     <div class="banner">
-                    LEARNING FOR EMPOWERMENT
+                        LEARNING FOR EMPOWERMENT
                     </div>
                 </div>
 
@@ -76,9 +76,10 @@
                 </div>
                 <div class="desc">
                     <h3>SCHOOL PROJECTS</h3>
-                    <p>Our 'Student Life' page is your hub for an engaging high school experience. Explore a dynamic
-                        calendar of events, from sports tournaments to club meetings, and stay updated on important
-                        school announcements. </p>
+                    <p>
+                        The school website's projects page is a dynamic hub showcasing a range of 
+                        student and faculty initiatives. From academic endeavors to community projects, this section provides a snapshot of the school's commitment to innovation. 
+                    </p>
                 </div>
             </div>
             <div class="card faculty">
@@ -86,10 +87,11 @@
                     <img src="{{ asset('/icons/faculty.png') }}" alt="">
                 </div>
                 <div class="desc">
-                    <h3>SCHOOL PROJECTS</h3>
-                    <p>Our 'Student Life' page is your hub for an engaging high school experience. Explore a dynamic
-                        calendar of events, from sports tournaments to club meetings, and stay updated on important
-                        school announcements. </p>
+                    <h3>FACULTY</h3>
+                    <p>The faculty page on our high school website provides a concise overview of our dedicated and
+                        experienced teaching staff. Here, you can find brief profiles of each faculty member,
+                        highlighting their academic backgrounds, areas of expertise, and a glimpse into their passion
+                        for education. </p>
                 </div>
             </div>
         </section>
