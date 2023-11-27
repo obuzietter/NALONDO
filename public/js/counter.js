@@ -10,7 +10,7 @@ function teacherCount() {
     }
 }
 
-let student = setInterval(studentCount, 10)
+let student = setInterval(studentCount, 8)
 let count2 = 1
 
 function studentCount() {
@@ -33,6 +33,7 @@ function candidateCount() {
         clearInterval(candidate)
     }
 }
+
 
 // let c = document.querySelectorAll('.count')
 // c.forEach((counter) => {

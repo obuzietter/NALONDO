@@ -108,7 +108,7 @@
                         </div>
                         <div class="body">
                             <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kmausinga . . .</p>
+                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
                             <span>
                                 See article
                             </span>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="body">
                             <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kmausinga . . .</p>
+                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
                             <span>
                                 See article
                             </span>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="body">
                             <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kmausinga . . .</p>
+                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
                             <span>
                                 See article
                             </span>
@@ -189,6 +189,7 @@
 
 
         </section>
+        <!-- about section styling -->
         <section class="about">
             <div class="slides">
                 <div class="content">
@@ -208,9 +209,9 @@
                     <button id="btn">LEARN MORE</button>
                 </div>
                 <nav1>
-                    <a href="">A</a>
+                    <!-- <a href="">A</a>
                     <a href="">B</a>
-                    <a href="">C</a>
+                    <a href="">C</a> -->
                 </nav1>
             </div>
         </section>

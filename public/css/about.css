@@ -133,15 +133,16 @@ main {
         border-radius: 20px;
         &:hover h3 {
             background-color: var(--prim-color);
-            height: auto;
+            height: 3.5rem;
 
-            padding: 1rem;
+            /* padding: 1rem; */
         }
     }
 }
 
 .history .chunks .chunk {
     display: flex;
+  
 }
 
 .history .chunks .chunk>div {
@@ -151,7 +152,9 @@ main {
 .history .chunks .chunk .title {
     display: grid;
     place-items: center;
-    /* border: 2px solid red; */
+    
+    
+    
 }
 
 hr {
@@ -162,7 +165,8 @@ hr {
     color: orange;
     margin: 0;
     font-size: 2rem;
-    border-radius: 20px;
+    font-weight: 700;
+    /* border-radius: 20px; */
     height: 100%;
     width: 100%;
     display: grid;
@@ -257,7 +261,7 @@ hr {
     opacity: 0;
     font-size: 1.2rem;
     color: white;
-    /* transform: translateX(500%); */
+    
 }
 
 /* core-values styling */
@@ -268,7 +272,7 @@ hr {
     flex-direction: column;
 
     min-height: 60vh;
-    /* border: 2px solid var(--prim-color); */
+    
     padding: 2rem;
 }
 

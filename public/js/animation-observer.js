@@ -10,7 +10,7 @@ const animationObserver = new IntersectionObserver(
             }
             else{
                 
-                entry.target.style.transform = "translate(-100%, -3rem)";
+                entry.target.style.transform = "translate(-50%, -3rem)";
                 entry.target.style.opacity = "0";
             }
             
