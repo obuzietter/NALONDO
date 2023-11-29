@@ -516,9 +516,15 @@ a {
 @media only screen and (max-width: 820px) {
     .school-values .mmv>div{
         background-color: var(--prim-color);
-        p{
-            opacity: 1;
+        
+        p {
+            transform: translateX(0);
+            /* line-height: 2.5rem; */
         }
+    }
+    .school-values .mmv div p {
+        opacity: 1;
+
     }
     .history .chunks .chunk {
         flex-direction: column;
