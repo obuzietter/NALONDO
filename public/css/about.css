@@ -133,7 +133,7 @@ main {
         border-radius: 20px;
         &:hover h3 {
             background-color: var(--prim-color);
-            height: 3.5rem;
+            height: 3.9rem;
 
             /* padding: 1rem; */
         }
@@ -532,6 +532,7 @@ a {
         .title h3 {
             background-color: rgba(0, 0, 57);
             padding: 0.5rem;
+            font-size: 1.7rem;
         }
 
         .description p {
