@@ -167,49 +167,49 @@
             <div class="boxes">
                 <div class="box">
                     <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1543.jpg" alt="">
+                    <img src="/images/dorm 1.png" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1520.jpg" alt="">
+                    <div class="house-name">VICTORY HOUSE</div>
+                    <img src="/images/dorm 2.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/long-hallway-with-blue-doors-light-ceiling_1340-32511.jpg" alt="">
+                    <div class="house-name">CHETAMBE HOUSE</div>
+                    <img src="/images/dorm 3.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/premium-photo/dormitory-with-bunk-beds-professional-photography-ai-generated_925376-1529.jpg" alt="">
+                    <div class="house-name">ELGON HOUSE</div>
+                    <img src="/images/dorm 1.png" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/architecture-modern-city-building-dusk-generative-ai_188544-8013.jpg" alt="">
+                    <div class="house-name">ANNEX HOUSE</div>
+                    <img src="/images/dorm 2.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/view-empty-football-locker-room_23-2150885819.jpg" alt=""></div>
+                    <div class="house-name">HARAMBEE HOUSE</div>
+                    <img src="/images/dorm 3.jpg" alt=""></div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/long-school-corridor-with-locker_587448-4971.jpg" alt=""></div>
+                    <div class="house-name">MULIRO HOUSE</div>
+                    <img src="/images/dorm 1.png" alt=""></div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/empty-corridor-leads-modern-illuminated-entrance-hall-generated-by-ai_188544-29226.jpg" alt="">
+                    <div class="house-name">NYAYO HOUSE</div>
+                    <img src="/images/dorm 2.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/diminishing-perspective-modern-office-corridor-reflects-design-generated-by-ai_188544-27897.jpg" alt="">
+                    <div class="house-name">JAMHURI HOUSE</div>
+                    <img src="/images/dorm 3.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/view-empty-football-locker-room_23-2150885807.jpg" alt="">
+                    <div class="house-name">NYERERE HOUSE</div>
+                    <img src="/images/dorm 1.png" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/luxury-modern-home-with-wooden-flooring-glass-generated-by-ai_188544-26710.jpg" alt="">
+                    <div class="house-name">NAKHISA HOUSE</div>
+                    <img src="/images/dorm 2.jpg" alt="">
                 </div>
                 <div class="box">
-                    <div class="house-name">AMUGUNE HOUSE</div>
-                    <img src="https://img.freepik.com/free-photo/blue-yellow-sunset-cityscape-high-up-generated-by-ai_188544-27807.jpg" alt="">
+                    <div class="house-name">AGGREY HOUSE</div>
+                    <img src="/images/dorm 3.jpg" alt="">
                 </div>
             </div>
         </section>
