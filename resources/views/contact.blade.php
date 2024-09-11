@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('/css/contact.css') }}">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="{{ asset('/css/theme.css') }}">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
@@ -74,9 +74,10 @@
             </form>
         </div>
     </main>
+    
+    <footer>@include('footer')</footer>
 
-    <!-- footer -->
-    @include('footer')
+   
 
     <script>
         window.addEventListener('scroll', () => {

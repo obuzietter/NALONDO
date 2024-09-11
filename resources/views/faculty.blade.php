@@ -28,21 +28,25 @@
             <div class="adminstrators adminstrators-1 opened">
                 <!-- adminstrator position and down arrow -->
                 <div class="adm-position">
-                    <h2>CHIEF PRINCIPAL</h2>
-                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate (1).png') }}" alt="">
+                    <h2>SENIOR PRINCIPAL</h2>
+                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate.png') }}" alt="">
                     <!-- <img class="arrow" src="{{ asset('images/.jpeg') }}" alt=""> -->
 
                 </div>
                 <!-- adminstrator name,remarks and image -->
                 <div class="main-adm">
                     <div class="identity">
-                        <div class="adm-name">PROF MATTHEW</div>
+                        <div class="adm-name">MR. MOSES JUMA</div>
                         <div class="adm-remarks">
-                            Lorem ipsum dolor sit amet, consectetur.
+                             <q>Our team is dedicated to providing quality education and fostering an environment for academic and personal growth. Together, let's embark on a journey of discovery and achievement
+                             
+                    </q>
+                             
+                             
                         </div>
                     </div>
                     <div class="image">
-                        <img src="{{ asset('images/nalondo24.jpeg') }}" alt="">
+                        <img src="{{ asset('images/principal4.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -51,18 +55,18 @@
             <div class="adminstrators">
                 <div class="adm-position">
                     <h2>DEPUTY PRINCIPAL</h2>
-                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate (1).png') }}" alt="">
+                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate.png') }}" alt="">
 
                 </div>
                 <div class="main-adm">
                     <div class="identity">
-                        <div class="adm-name">MR. ANDREW</div>
+                        <div class="adm-name">MR. WAFUBWA GAITANO</div>
                         <div class="adm-remarks">
-                            Lorem ipsum dolor sit amet, consectetur.
+                               <q> As the Deputy Principal, I ensure academic and personal development, emphasizing well-rounded education beyond the classroom. </q>
                         </div>
                     </div>
                     <div class="image">
-                        <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
+                        <img src="{{ asset('images/Wafubwa2.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -72,933 +76,246 @@
             <!-- adm 3 -->
             <div class="adminstrators">
                 <div class="adm-position">
-                    <h2>SENIOR MASTER</h2>
-                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate (1).png') }}" alt="">
+                    <h2>DIRECTOR OF STUDIES</h2>
+                    <img class="arrow" src="{{ asset('icons/arrow-down-sign-to-navigate.png') }}" alt="">
                 </div>
                 <div class="main-adm">
                     <div class="identity">
-                        <div class="adm-name">MR. JAMES</div>
+                        <div class="adm-name">MR. WANJALA RONALD</div>
                         <div class="adm-remarks">
-                            Lorem ipsum dolor sit amet, consectetur.
+                            <q>As Director of Studies, I'm honored to be part of an institution valuing excellence and inclusivity. We are committed to nurturing well-rounded individuals prepared for the challenges of the modern world.</q>
                         </div>
                     </div>
                     <div class="image">
-                        <img src="{{ asset('images/nalondo21.jpeg') }}" alt="">
+                        <img src="{{ asset('images/director of studies.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <!-- images of teachers in every department -->
-        <div class="departments">
+        <!--departments-->
+        <!-- Department 1.Heads of department -->
+        <section class="department"> 
+               <div class="department-title"> <h2>DEPARTMENTAL HEADS</h2></div>
+                <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+                <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+                <div class=" teacher-container">
 
-            <div class="dep-heading">OUR DEPARTMENTS</div>
-
-            <!-- DEPARTMENT 1-->
-            <div class="department-1 department" id="department-1">
-                <!-- DEP TITLE -->
-                <div class="title">MATHEMATICS DEPARTMENT</div>
-
-                <!-- TEACHER'S IMAGES AND DESCRIPTIONS -->
-                <div class="slider">
-                    <div class="cards">
-                        <!-- INDIVIDUAL TEACHER -->
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-                            </div>
-
-                            <div class="description">
-                                <div class="name">This is my 1.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
+                    {{-- 1st teacher --}}
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Awuor.jpg" class="teacher-thumb" alt="">
                         </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo1.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 2.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MADAM AWUOR ACHSAR</h4>
+                            <p class="teacher-description">Assistant DOS</p>
+                            <span class="subject-1">History</span><span class="subject-2">CRE</span>
                         </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo2.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 3.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
+                    </div>
+        
+                    <!-- 2nd teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Makuku.jpg" class="teacher-thumb" alt="">
                         </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo3.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 4.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. Makuku Zadock</h4>
+                            <p class="teacher-description">Form 3 Co-ordinator</p>
+                            <span class="subject-1">Mathematics</span><span class="subject-2">Computer</span>
                         </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo4.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 5.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
+                    </div>
+        
+                    <!-- 3rd teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/philip.jpg" class="teacher-thumb" alt="">
                         </div>
-
-
-
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. PHILIP MASINDE</h4>
+                            <p class="teacher-description">HOD Boarding</p>
+                            <span class="subject-1">Mathematics</span><span class="subject-2">Physics</span>
+                        </div>
+                    </div>
+        
+                    <!-- 4th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Denis.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. Denis Nyongesa</h4>
+                            <p class="teacher-description">Head of Night School</p>
+                            <span class="subject-1">English</span><span class="subject-2">Literature</span>
+                        </div>
+                    </div>
+        
+                    <!-- 5th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Irine.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MADAM IRINE MARUTI</h4>
+                            <p class="teacher-description">HOD languages</p>
+                            <span class="subject-1">Kiswahili</span><span class="subject-2">CRE</span>
+                        </div>
+                    </div>
+        
+        
+                    <!-- 6th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Roselyn.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MADAM ROSELYN WANJALA</h4>
+                            <p class="teacher-description">HOD guidance and counselling</p>
+                            <span class="subject-1">Business</span><span class="subject-2">History</span>
+                        </div>
+                    </div>
+        
+        
+                    <!-- 7th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Kipkania.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. KIPKANIA COLLINS</h4>
+                            <p class="teacher-description">HOD humanities</p>
+                            <span class="subject-1">History</span><span class="subject-2">Geography</span>
+                        </div>
+                    </div>
+        
+        
+                    <!-- 8th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Wanyonyi.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. WANYONYI VICTOR</h4>
+                            <p class="teacher-description">Class teacher 3S</p>
+                            <span class="subject-1">Computer</span><span class="subject-2">Mathematics</span>
+                        </div>
+                    </div>
+        
+        
+                    <!-- 9th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Beatrice.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MADAM BEATRICE MULATI</h4>
+                            <p class="teacher-description">HOD Sciences</p>
+                            <span class="subject-1">Mathematics</span><span class="subject-2">Chemistry</span>
+                        </div>
+                    </div>
+        
+        
+                    <!-- 10th teacher -->
+                    <div class="teacher-card">
+                        <div class=" teacher-image">
+                            <img src="images/Mang'ara.jpg" class="teacher-thumb" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h4 class="teacher-name">MR. MANG'ARA JOSHUA</h4>
+                            <p class="teacher-description">Assistant head of night school</p>
+                            <span class="subject-1">Mathematics</span><span class="subject-2">Chemistry</span>
+                        </div>
                     </div>
 
-                    <!-- repeated cards -->
-                    <div class="cards">
-                        <!-- INDIVIDUAL TEACHER -->
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-                            </div>
 
-                            <div class="description">
-                                <div class="name">This is my 1.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo1.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 2.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo2.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 3.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo3.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 4.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo4.jpeg') }}" alt="">
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my 5.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
+   
+                   
                 </div>
+                
+            </section>
+            
+            
+        <!--Departement 1 continued.Heads of department-->
+        <section class="department"> 
+    <div class="department-title"> <h2>DEPARTMENTAL HEADS</h2></div>
+     <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+     <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+     <div class=" teacher-container">
+
+         {{-- 1st teacher --}}
+         <div class="teacher-card">
+            <div class=" teacher-image">
+                <img src="images/Humphrey.jpg" class="teacher-thumb" alt="">
             </div>
-
-            <!-- button to scroll back up to the first department -->
-            <div class="top"><a href="#department-1"><img src="{{asset('icons/arrow (1).png')}}" alt=""></a></div>
-
-
-            <!-- DEPARTMENT 2 -->
-            <div class="department-2 department">
-                <div class="title">SCIENCES DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo7.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo8.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo9.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo10.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo11.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo7.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo8.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo9.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo10.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo11.jpeg') }}" <img src="{{ asset('images/nalondo8.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEPARTMENT 3 -->
-            <div class="department-3 department">
-                <div class="title">CAREERS DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo11.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo12.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo13.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo14.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo15.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo11.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo12.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo13.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo14.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo15.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEPARTMENT 4 -->
-            <div class="department-4 department">
-                <div class="title">GUIDANCE AND COUNSELLING DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo23.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo20.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo23.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo20.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEPARTMENT  5-->
-            <div class="department-5 department">
-                <div class="title">GAMES DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo21.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo22.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo23.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo24.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo25.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo21.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo22.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo23.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo24.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo25.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEPARTMENT  6-->
-            <div class="department-6 department">
-                <div class="title">BOARDING DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo26.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo27.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo28.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo29.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo30.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo26.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo27.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo28.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo29.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo30.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEPARTMENT  7-->
-            <div class="department-7 department">
-                <div class="title">TECHNICALS DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo26.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo25.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- repeated cards -->
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo25.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo20.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- DEPARTMENT  8-->
-            <div class="department-8 department">
-                <div class="title">HUMANITIES DEPARTMENT</div>
-                <div class="slider">
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo24.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo20.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- repeated cards -->
-                    <div class="cards">
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo16.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo17.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo18.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo22.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="image">
-                                <img src="{{ asset('images/nalondo20.jpeg') }}" alt="">
-
-                            </div>
-                            <div class="description">
-                                <div class="name">This is my name.</div>
-                                <div class="role">This is my role.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="teacher-info">
+                <h4 class="teacher-name">MR. HUMPHREY WANGILA</h4>
+                <p class="teacher-description">Senior Teacher</p>
+                <span class="subject-1">English</span><span class="subject-2">Literature</span>
             </div>
         </div>
+
+         
+
+         <!-- 2nd teacher -->
+         <div class="teacher-card">
+             <div class=" teacher-image">
+                 <img src="images/Mabonga.jpg" class="teacher-thumb" alt="">
+             </div>
+             <div class="teacher-info">
+                 <h4 class="teacher-name">MR. MABONGA DICKSON</h4>
+                 <p class="teacher-description">HOS Mathematics</p>
+                 <span class="subject-1">Mathematics</span><span class="subject-2">Physics</span>
+             </div>
+         </div>
+
+         <!-- 3rd teacher -->
+         <div class="teacher-card">
+             <div class=" teacher-image">
+                 <img src="images/Christine.jpg" class="teacher-thumb" alt="">
+             </div>
+             <div class="teacher-info">
+                 <h4 class="teacher-name">MADAM CHRISTINE</h4>
+                 <p class="teacher-description">Subject Teacher</p>
+                 <span class="subject-1">Geography</span><span class="subject-2">Kiswahili</span>
+             </div>
+         </div>
+
+         <!-- 4th teacher -->
+         <div class="teacher-card">
+             <div class=" teacher-image">
+                 <img src="images/Musuya.jpg" class="teacher-thumb" alt="">
+             </div>
+             <div class="teacher-info">
+                 <h4 class="teacher-name">MR. MUSUYA EMMANUEL</h4>
+                 <p class="teacher-description">Handball Coach</p>
+                 <span class="subject-1">English</span><span class="subject-2">Literature</span>
+             </div>
+         </div>
+
+         <!-- 5th teacher -->
+         <div class="teacher-card">
+            <div class=" teacher-image">
+                <img src="images/Florence.jpg" class="teacher-thumb" alt="">
+            </div>
+            <div class="teacher-info">
+                <h4 class="teacher-name">MADAM FLORENCE</h4>
+                <p class="teacher-description">Subject Teacher</p>
+                <span class="subject-1">English</span><span class="subject-2">Literature</span>
+            </div>
+        </div>
+
+
+        
+
+
+
+        
+     </div>
+     
+ </section>
     </div>
-    @include('footer')
+    
+@include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

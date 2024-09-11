@@ -39,6 +39,7 @@
     --tertiary-color:rgba(var(--tertiary));
     --colorD:rgba(var(--D));
     --colorE:rgba(var(--E));
+    --colorF:var(--h-color);
 
 
   

@@ -180,7 +180,7 @@
           <div class="row">
               <div class="col-sm-12 col-md-6">
                   <h6>About</h6>
-                  <p class="text-justify">St Josephs Nalondo Boys High School is a county level boy school located in Bungoma County. It is a renowned boarding school dedicated to nurturing young men into well-rounded individuals. Nestled in a picturesque setting, it provides a structured and supportive environment where students thrive academically and personally. With a strong emphasis on character development, this institution instills values such as discipline, integrity, and leadership. The dedicated faculty encourages a love for learning and critical thinking, ensuring that students are well-prepared for future challenges.</p>
+                  <p class="text-justify">St Josephs Nalondo Boys High School is an extra-county level boy school located in Bungoma County. It is a renowned boarding school dedicated to nurturing young men into well-rounded individuals. Nestled in a picturesque setting, it provides a structured and supportive environment where students thrive academically and personally. With a strong emphasis on character development, this institution instills values such as discipline, integrity, and leadership. The dedicated faculty encourages a love for learning and critical thinking, ensuring that students are well-prepared for future challenges.</p>
               </div>
 
               <div class="col-xs-6 col-md-3">
