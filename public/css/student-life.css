@@ -240,6 +240,15 @@ main .student-leaders {
     /* border: 3px solid red; */
     /* background-color: rgba(var(--tertiary), .9); */
     padding-bottom: 3rem;
+
+    .card-group{
+        .card{
+            transition: .2s ease;
+            &:hover{
+                scale: 1.1;
+            }
+        }
+    }
 }
 
 main .student-leaders .heading {
