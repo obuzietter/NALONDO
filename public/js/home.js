@@ -1,63 +1,44 @@
-const counters = document.querySelectorAll(".count");
-const speed = 32;
-const observer = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                startCount()
-            }
-        });
-    },
-    {
-        threshold: 1,
-    }
-);
-counters.forEach((counter) => {
-    observer.observe(counter);
-});
+// IntersectionObserver options
+const observerOptions = {
+    root: null, // Use the viewport as the root
+    threshold: 0.5 // Trigger when 50% of the element is visible
+};
 
+// Counter function
+function animateCounter(element) {
+    const target = +element.getAttribute('data-target'); // Get target number from data-target attribute
+    const speed = 200; // Adjust speed here (smaller number = faster)
 
-function startCount() {
-    counters.forEach((counter) => {
-        const updateCount = () => {
-            const target = parseInt(+counter.getAttribute("data-target"));
-            const count = parseInt(+counter.innerText);
-            const increment = Math.trunc(target / speed);
-            // console.log(increment);
+    const updateCount = () => {
+        const current = +element.innerText;
+        const increment = target / speed;
 
-            if (count < target) {
-                counter.innerText = count + increment;
-                setTimeout(updateCount, 1);
-            } else {
-                count.innerText = target;
-            }
-        };
-        updateCount();
-    });
+        if (current < target) {
+            element.innerText = Math.ceil(current + increment);
+            setTimeout(updateCount, 10); // Adjust delay for smoother animation
+        } else {
+            element.innerText = target;
+        }
+    };
+
+    updateCount();
 }
 
-const observerItems = document.querySelectorAll(".ob");
-const animationObserver = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting){
+// IntersectionObserver callback function
+const callback = (entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const counter = entry.target.querySelector('.count');
+            animateCounter(counter);
+            observer.unobserve(entry.target); // Stop observing once animated
+        }
+    });
+};
 
-                entry.target.style.transform = "translateX(0)"
-            }
-            else{
-                entry.target.style.transform = "translateX(50%)";
-            }
-            
-        });
-    },
-    {
-        threshold: 0.1,
-    }
-);
-// observerItems.forEach((ob) => {
-//     animationObserver.observe(ob);
-// });
+// Create a new observer
+const observer = new IntersectionObserver(callback, observerOptions);
 
-document.getElementById("btn").addEventListener("click", ()=>{
-    location.href = "/about"
-})
+// Observe each element with the class 'ob'
+document.querySelectorAll('.ob').forEach(counter => {
+    observer.observe(counter);
+});

@@ -104,88 +104,88 @@
                 <div class="content">
                     <article>
                         <div class="image">
-                            <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt="">
+                            {{-- <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt=""> --}}
                         </div>
                         <div class="body">
-                            <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
+                            <h3>Unyielding Academic Performance</h3>
+                            <p>The school has maintained a good run in performance at the Kenya National Examinations Council, KNEC, exams. In the 2019 Kenya Certificate of Secondary Education, KCSE, exams the school posted good results to rank among the best schools in the County. This is after recording a mean score of 5.293 (C- minus).</p>
                             <span>
-                                See article
+                                <a href="https://educationnewshub.co.ke/st-josephs-nalondo-boys-secondary-school-complete-details-kcse-results-fees-contacts-location-admissions-knec-code-history-portal-login-website/" target="_blank" style="color: var(--h-color)">
+                                See Article
+                                </a>
                             </span>
                         </div>
                     </article>
                     <article>
                         <div class="image">
-                            <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt="">
+                            {{-- <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt=""> --}}
                         </div>
                         <div class="body">
-                            <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
+                            <h3>Elevation to Extra-County Status</h3>
+                            <p>In 2022, St. Joseph's Nalondo Boys High School was elevated from a sub-county to an extra-county level school. This move has allowed the school to restructure its operations and enhance its academic standing. As an extra-county school, Nalondo Boys High is now among the top-performing institutions in Bungoma County.</p>
                             <span>
-                                See article
+                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank" style="color: var(--h-color)">See Article</a>
                             </span>
                         </div>
                     </article>
                     <article>
                         <div class="image">
-                            <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt="">
+                            {{-- <img src="https://cdn-icons-png.flaticon.com/128/458/458555.png" alt=""> --}}
                         </div>
                         <div class="body">
-                            <h3>Drastic Improvement in kcse</h3>
-                            <p>Positive Vibes as Nalondo Boys threaten the great Kamusinga . . .</p>
+                            <h3>Significant Infrastructure Upgrades</h3>
+                            <p>The school has undergone significant infrastructure upgrades in recent years, thanks to the support of the local community and various stakeholders. Notable improvements include the construction of a new dining hall, with iron sheets donated by a generous supporter. The school also plans to build a multi-story dormitory to accommodate its growing student population as it transitions to an extra-county institution.</p>
                             <span>
-                                See article
+                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank" style="color: var(--h-color)">See Article</a>
                             </span>
                         </div>
                     </article>
                 </div>
-                <div class="more">
+                {{-- <div class="more">
                     <button>SEE MORE ARTICLES</button>
-                </div>
+                </div> --}}
             </div>
         </section>
         {{-- section events --}}
         <section class="events">
             <div class="heading">
-                <h1>Upcoming Events</h1>
+                <h1>Past Events</h1>
             </div>
             <div class="event-items">
                 <div class="event">
                     <div class="date">
                         <div class="widget">
-                            <div class="month">MAY</div>
-                            <div class="day">23</div>
+                            <div class="month">APR</div>
+                            <div class="day">2023</div>
                         </div>
                     </div>
                     <div class="desc">
-                        <h3>Regional Competitions</h3>
-                        <p>Will be held at Nalondo Boys Highschool</p>
-                        <span>
+                        <h3>Sports Tournaments Participation</h3>
+                        <p>St. Joseph's Nalondo Boys High School participated in various inter-school sports tournaments, showcasing its commitment to extracurricular activities and promoting teamwork and physical fitness among students.</p>
+                        {{-- <span>
                             See event details ->
-                        </span>
+                        </span> --}}
                     </div>
                 </div>
                 <div class="event">
                     <div class="date">
                         <div class="widget">
-                            <div class="month">JULY</div>
-                            <div class="day">4</div>
+                            <div class="month">SEP</div>
+                            <div class="day">2023</div>
                         </div>
                     </div>
                     <div class="desc">
-                        <h3>Science and Engineering fair</h3>
-                        <p>Will be held at Friends School Kamusinga
-
-                        </p>
-                        <span>
+                        <h3>Academic Performance Improvement</h3>
+                        <p>The school announced its target to send over 50 students to university in 2023, reflecting its commitment to academic excellence and continuous improvement in performance metrics.</p>
+                        {{-- <span>
                             See event details ->
-                        </span>
+                        </span> --}}
                     </div>
                 </div>
             </div>
-            <div class="calender">
+            {{-- <div class="calender">
                 <h1>SEE CALENDER OF EVENTS</h1>
-            </div>
+            </div> --}}
 
 
         </section>

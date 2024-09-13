@@ -158,7 +158,7 @@
           background-color: #007bb6
       }
 
-      .social-icons a.dribbble:hover {
+      .social-icons a.instagram:hover {
           background-color: #ea4c89
       }
 
@@ -186,12 +186,12 @@
               <div class="col-xs-6 col-md-3">
                   <h6>Useful Links</h6>
                   <ul class="footer-links">
-                      <li><a href="">Photo Gallery</a></li>
-                      <li><a href="">Youtube Channel</a></li>
-                      <li><a href="">Past KCSE Results</a></li>
+                      <li><a href="https://youtu.be/Yr9mv9GJGzY?si=Yds5lD1ymcrZ5uqh" target="_blank">Nalondo Boys Scouts</a></li>
+                      <li><a href="https://youtu.be/-8Rx556URYU?si=XtWQR4DgEs1qanyn" target="_blank">Maisha Prime News</a></li>
+                      {{-- <li><a href="">Past KCSE Results</a></li>
                       <li><a href="">The Chapel</a></li>
                       <li><a href="">Management</a></li>
-                      <li><a href="">PTA</a></li>
+                      <li><a href="">PTA</a></li> --}}
                   </ul>
               </div>
 
@@ -219,10 +219,10 @@
 
               <div class="col-md-4 col-sm-6 col-xs-12">
                   <ul class="social-icons">
-                      <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
-                      <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a class="facebook" href="https://www.bing.com/ck/a?!&&p=30340c550b080b67JmltdHM9MTcyNjA5OTIwMCZpZ3VpZD0wOGE3YWRmNS0yZThhLTYzNWMtM2Y4Ni1iOTM2MmY4NTYyNTQmaW5zaWQ9NTMwMA&ptn=3&ver=2&hsh=3&fclid=08a7adf5-2e8a-635c-3f86-b9362f856254&psq=nalondo+high+school&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3Blb3BsZS9TdC1Kb3NlcGhzLU5hbG9uZG8tQm95cy1IaWdoLXNjaG9vbC8xMDAwNjM5MjMxMTA2MjMv&ntb=1" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                      {{-- <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> --}}
+                      <li><a class="instagram" href="https://www.bing.com/ck/a?!&&p=b72ae8449ce3e564JmltdHM9MTcyNjA5OTIwMCZpZ3VpZD0wOGE3YWRmNS0yZThhLTYzNWMtM2Y4Ni1iOTM2MmY4NTYyNTQmaW5zaWQ9NTE3Mg&ptn=3&ver=2&hsh=3&fclid=08a7adf5-2e8a-635c-3f86-b9362f856254&psq=nalondo+high+school+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9uYWxvbmRvc2Vjb25kYXJ5Lw&ntb=1" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                      {{-- <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li> --}}
                   </ul>
               </div>
           </div>

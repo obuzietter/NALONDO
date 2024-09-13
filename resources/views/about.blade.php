@@ -30,9 +30,9 @@
                 <div class="title">
                     WHO ARE WE ?
                 </div>
-                <div class="logo">
+                {{-- <div class="logo">
                     <img src="https://cdn-icons-png.flaticon.com/128/1959/1959460.png" alt="School-logo.png">
-                </div>
+                </div> --}}
             </div>
         </section>
         <section class="school-desc">
@@ -133,6 +133,9 @@
             </div>
         </section>
         <section class="school-values">
+            <div class="title">
+                <h1 style="text-align: center">SCHOOL VALUES</h1>
+            </div>
             <div class="mmv">
                 <div class="motto">
                     <h3>MOTTO</h3>
