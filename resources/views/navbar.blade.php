@@ -5,12 +5,27 @@
         <div class="menu-button"></div>
     </label>
     <ul class="menu">
-        <li><a href="{{ route('home') }}">Home</a></li>
-        <li><a href="{{ route('about') }}">About</a></li>
-        <li><a href="{{ route('faculty') }}">Faculty</a></li>
-        <li><a href="{{ route('studentLife') }}">Student Life</a></li>
-        <li><a href="{{ route('community') }}">Community</a></li>
-        <li><a href="{{ route('achievements') }}">Achievements</a></li>
-        <li><a href="{{ route('contact') }}">Contact Us</a></li>
+        <li>
+            <a href="{{ route('home') }}" class="{{ Request::segment(1) == '' ? 'active' : '' }}">Home</a>
+        </li>
+        <li>
+            <a href="{{ route('about') }}" class="{{ Request::segment(1) == 'about' ? 'active' : '' }}">About</a>
+        </li>
+        <li>
+            <a href="{{ route('faculty') }}" class="{{ Request::segment(1) == 'faculty' ? 'active' : '' }}">Faculty</a>
+        </li>
+        <li>
+            <a href="{{ route('studentLife') }}" class="{{ Request::segment(1) == 'studentLife' ? 'active' : '' }}">Student Life</a>
+        </li>
+        <li>
+            <a href="{{ route('community') }}" class="{{ Request::segment(1) == 'community' ? 'active' : '' }}">Community</a>
+        </li>
+        <li>
+            <a href="{{ route('achievements') }}" class="{{ Request::segment(1) == 'achievements' ? 'active' : '' }}">Achievements</a>
+        </li>
+        <li>
+            <a href="{{ route('contact') }}" class="{{ Request::segment(1) == 'contact' ? 'active' : '' }}">Contact Us</a>
+        </li>
+
     </ul>
 </header>

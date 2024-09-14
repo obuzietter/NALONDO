@@ -89,7 +89,7 @@ main{
 
 .map-text a{
     text-decoration:none;
-    color:white;  
+    color:white;
 }
 
 .show h1{
@@ -182,7 +182,7 @@ form h1{
 form .name-contact{
     display:flex;
     justify-content:space-between;
-    align-items:center; 
+    align-items:center;
     /* border:2px solid blue; */
 }
 
@@ -240,7 +240,7 @@ textarea{
 input:hover,textarea:hover{
     cursor:text;
     outline:1px solid blue;
-    
+
 }
 
 

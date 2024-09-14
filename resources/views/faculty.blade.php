@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,10 +40,10 @@
                         <div class="adm-name">MR. MOSES JUMA</div>
                         <div class="adm-remarks">
                              <q>Our team is dedicated to providing quality education and fostering an environment for academic and personal growth. Together, let's embark on a journey of discovery and achievement
-                             
+
                     </q>
-                             
-                             
+
+
                         </div>
                     </div>
                     <div class="image">
@@ -96,7 +97,7 @@
 
         <!--departments-->
         <!-- Department 1.Heads of department -->
-        <section class="department"> 
+        <section class="department">
                <div class="department-title"> <h2>DEPARTMENTAL HEADS</h2></div>
                 <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
                 <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
@@ -113,7 +114,7 @@
                             <span class="subject-1">History</span><span class="subject-2">CRE</span>
                         </div>
                     </div>
-        
+
                     <!-- 2nd teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -125,7 +126,7 @@
                             <span class="subject-1">Mathematics</span><span class="subject-2">Computer</span>
                         </div>
                     </div>
-        
+
                     <!-- 3rd teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -137,7 +138,7 @@
                             <span class="subject-1">Mathematics</span><span class="subject-2">Physics</span>
                         </div>
                     </div>
-        
+
                     <!-- 4th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -149,7 +150,7 @@
                             <span class="subject-1">English</span><span class="subject-2">Literature</span>
                         </div>
                     </div>
-        
+
                     <!-- 5th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -161,8 +162,8 @@
                             <span class="subject-1">Kiswahili</span><span class="subject-2">CRE</span>
                         </div>
                     </div>
-        
-        
+
+
                     <!-- 6th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -174,8 +175,8 @@
                             <span class="subject-1">Business</span><span class="subject-2">History</span>
                         </div>
                     </div>
-        
-        
+
+
                     <!-- 7th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -187,8 +188,8 @@
                             <span class="subject-1">History</span><span class="subject-2">Geography</span>
                         </div>
                     </div>
-        
-        
+
+
                     <!-- 8th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -200,8 +201,8 @@
                             <span class="subject-1">Computer</span><span class="subject-2">Mathematics</span>
                         </div>
                     </div>
-        
-        
+
+
                     <!-- 9th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -213,8 +214,8 @@
                             <span class="subject-1">Mathematics</span><span class="subject-2">Chemistry</span>
                         </div>
                     </div>
-        
-        
+
+
                     <!-- 10th teacher -->
                     <div class="teacher-card">
                         <div class=" teacher-image">
@@ -228,15 +229,13 @@
                     </div>
 
 
-   
-                   
                 </div>
-                
+
             </section>
-            
-            
+
+
         <!--Departement 1 continued.Heads of department-->
-        <section class="department"> 
+        <section class="department">
     <div class="department-title"> <h2>DEPARTMENTAL HEADS</h2></div>
      <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
      <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
@@ -254,7 +253,6 @@
             </div>
         </div>
 
-         
 
          <!-- 2nd teacher -->
          <div class="teacher-card">
@@ -305,16 +303,11 @@
         </div>
 
 
-        
-
-
-
-        
      </div>
-     
+
  </section>
     </div>
-    
+
 @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -328,7 +321,6 @@
         const menu = document.querySelector(".nav_menu");
         const menuBtn = document.querySelector("#open-menu-btn");
         const closeBtn = document.querySelector("#close-menu-btn");
-
 
 
         menuBtn.addEventListener('click', () => {
@@ -356,7 +348,7 @@
             },
             //when windo is>=600px
             breakpoints: {
-                600: {
+                600:
                     slidesPerView: 2
 
                 }
