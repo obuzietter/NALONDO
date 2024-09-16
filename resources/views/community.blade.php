@@ -18,7 +18,31 @@
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/theme.css">
 
+    <style>
+        #community-link {
+            color: var(--h-color);
+        }
 
+        #community-link::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            /* Adjust the position as needed */
+            width: 100%;
+            height: 3px;
+            /* Height of the line */
+            background-color: var(--h-color);
+            /* Color of the line */
+            transform: scaleX(1);
+            /* Initially, the line is not visible */
+            transform-origin: center;
+            /* Set the transform origin to center */
+            transition: transform 0.3s ease;
+            /* Add animation for smoother transition */
+        }
+    </style>
 </head>
 
 <body>

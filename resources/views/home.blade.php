@@ -16,6 +16,32 @@
     <link rel="stylesheet" href="/css/home.css">
     <script src="/js/counter.js" defer></script>
 
+    <style>
+        #home-link {
+            color: var(--h-color);
+        }
+
+        #home-link::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            /* Adjust the position as needed */
+            width: 100%;
+            height: 3px;
+            /* Height of the line */
+            background-color: var(--h-color);
+            /* Color of the line */
+            transform: scaleX(1);
+            /* Initially, the line is not visible */
+            transform-origin: center;
+            /* Set the transform origin to center */
+            transition: transform 0.3s ease;
+            /* Add animation for smoother transition */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -77,8 +103,9 @@
                 <div class="desc">
                     <h3>SCHOOL PROJECTS</h3>
                     <p>
-                        The school website's projects page is a dynamic hub showcasing a range of 
-                        student and faculty initiatives. From academic endeavors to community projects, this section provides a snapshot of the school's commitment to innovation. 
+                        The school website's projects page is a dynamic hub showcasing a range of
+                        student and faculty initiatives. From academic endeavors to community projects, this section
+                        provides a snapshot of the school's commitment to innovation.
                     </p>
                 </div>
             </div>
@@ -108,10 +135,14 @@
                         </div>
                         <div class="body">
                             <h3>Unyielding Academic Performance</h3>
-                            <p>The school has maintained a good run in performance at the Kenya National Examinations Council, KNEC, exams. In the 2019 Kenya Certificate of Secondary Education, KCSE, exams the school posted good results to rank among the best schools in the County. This is after recording a mean score of 5.293 (C- minus).</p>
+                            <p>The school has maintained a good run in performance at the Kenya National Examinations
+                                Council, KNEC, exams. In the 2019 Kenya Certificate of Secondary Education, KCSE, exams
+                                the school posted good results to rank among the best schools in the County. This is
+                                after recording a mean score of 5.293 (C- minus).</p>
                             <span>
-                                <a href="https://educationnewshub.co.ke/st-josephs-nalondo-boys-secondary-school-complete-details-kcse-results-fees-contacts-location-admissions-knec-code-history-portal-login-website/" target="_blank" style="color: var(--h-color)">
-                                See Article
+                                <a href="https://educationnewshub.co.ke/st-josephs-nalondo-boys-secondary-school-complete-details-kcse-results-fees-contacts-location-admissions-knec-code-history-portal-login-website/"
+                                    target="_blank" style="color: var(--h-color)">
+                                    See Article
                                 </a>
                             </span>
                         </div>
@@ -122,9 +153,13 @@
                         </div>
                         <div class="body">
                             <h3>Elevation to Extra-County Status</h3>
-                            <p>In 2022, St. Joseph's Nalondo Boys High School was elevated from a sub-county to an extra-county level school. This move has allowed the school to restructure its operations and enhance its academic standing. As an extra-county school, Nalondo Boys High is now among the top-performing institutions in Bungoma County.</p>
+                            <p>In 2022, St. Joseph's Nalondo Boys High School was elevated from a sub-county to an
+                                extra-county level school. This move has allowed the school to restructure its
+                                operations and enhance its academic standing. As an extra-county school, Nalondo Boys
+                                High is now among the top-performing institutions in Bungoma County.</p>
                             <span>
-                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank" style="color: var(--h-color)">See Article</a>
+                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank"
+                                    style="color: var(--h-color)">See Article</a>
                             </span>
                         </div>
                     </article>
@@ -134,9 +169,14 @@
                         </div>
                         <div class="body">
                             <h3>Significant Infrastructure Upgrades</h3>
-                            <p>The school has undergone significant infrastructure upgrades in recent years, thanks to the support of the local community and various stakeholders. Notable improvements include the construction of a new dining hall, with iron sheets donated by a generous supporter. The school also plans to build a multi-story dormitory to accommodate its growing student population as it transitions to an extra-county institution.</p>
+                            <p>The school has undergone significant infrastructure upgrades in recent years, thanks to
+                                the support of the local community and various stakeholders. Notable improvements
+                                include the construction of a new dining hall, with iron sheets donated by a generous
+                                supporter. The school also plans to build a multi-story dormitory to accommodate its
+                                growing student population as it transitions to an extra-county institution.</p>
                             <span>
-                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank" style="color: var(--h-color)">See Article</a>
+                                <a href="https://youtu.be/-8Rx556URYU?si=KVZzpmChnFtH4wc2" target="_blank"
+                                    style="color: var(--h-color)">See Article</a>
                             </span>
                         </div>
                     </article>
@@ -161,7 +201,9 @@
                     </div>
                     <div class="desc">
                         <h3>Sports Tournaments Participation</h3>
-                        <p>St. Joseph's Nalondo Boys High School participated in various inter-school sports tournaments, showcasing its commitment to extracurricular activities and promoting teamwork and physical fitness among students.</p>
+                        <p>St. Joseph's Nalondo Boys High School participated in various inter-school sports
+                            tournaments, showcasing its commitment to extracurricular activities and promoting teamwork
+                            and physical fitness among students.</p>
                         {{-- <span>
                             See event details ->
                         </span> --}}
@@ -176,7 +218,8 @@
                     </div>
                     <div class="desc">
                         <h3>Academic Performance Improvement</h3>
-                        <p>The school announced its target to send over 50 students to university in 2023, reflecting its commitment to academic excellence and continuous improvement in performance metrics.</p>
+                        <p>The school announced its target to send over 50 students to university in 2023, reflecting
+                            its commitment to academic excellence and continuous improvement in performance metrics.</p>
                         {{-- <span>
                             See event details ->
                         </span> --}}

@@ -20,6 +20,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 
+    <style>
+        #student-link {
+            color: var(--h-color);
+        }
+
+        #student-link::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            /* Adjust the position as needed */
+            width: 100%;
+            height: 3px;
+            /* Height of the line */
+            background-color: var(--h-color);
+            /* Color of the line */
+            transform: scaleX(1);
+            /* Initially, the line is not visible */
+            transform-origin: center;
+            /* Set the transform origin to center */
+            transition: transform 0.3s ease;
+            /* Add animation for smoother transition */
+        }
+    </style>
 </head>
 
 <body>
