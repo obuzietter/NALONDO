@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nalondo - Student Life</title>
+    @include('favicon')
     <link rel="stylesheet" href="/css/student-life.css">
     {{-- <link rel="stylesheet" href="/css/student-leader.css"> --}}
     {{-- <script src="/js/student-leader.js" defer></script> --}}

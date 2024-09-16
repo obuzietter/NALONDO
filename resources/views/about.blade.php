@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Nalondo - About</title>
+    @include('favicon')
     <link rel="stylesheet" href="/css/navbar-footer.css">
     <!-- <link rel="stylesheet" href="{{ asset('css/navbar.css') }}"> -->
     <!-- <link rel="stylesheet" href="{{ asset('/css/footer.css') }}"> -->
@@ -56,9 +57,9 @@
                 <div class="title">
                     WHO ARE WE ?
                 </div>
-                {{-- <div class="logo">
-                    <img src="https://cdn-icons-png.flaticon.com/128/1959/1959460.png" alt="School-logo.png">
-                </div> --}}
+                <div class="logo">
+                    <img src="./images/logo/nalondo-logo.png" alt="School-logo" width="128">
+                </div>
             </div>
         </section>
         <section class="school-desc">

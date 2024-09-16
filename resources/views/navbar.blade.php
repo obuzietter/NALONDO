@@ -1,5 +1,5 @@
 <header class="top-nav">
-    <div class="logo">Nalondo High School</div>
+    <div class="logo"> <img src="./images/logo/nalondo-logo.png" alt="" width="64"> Nalondo High School</div>
     <input id="menu-toggle" type="checkbox" />
     <label class="menu-button-container" for="menu-toggle">
         <div class="menu-button"></div>
