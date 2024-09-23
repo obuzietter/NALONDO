@@ -143,7 +143,8 @@
           line-height: 34px;
           height: 34px;
           width: 34px;
-          font-size: 14px
+          font-size: 14p          font-size: 14px
+
       }
 
       .social-icons a.facebook:hover {

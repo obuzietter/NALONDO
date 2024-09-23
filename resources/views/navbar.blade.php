@@ -20,9 +20,9 @@
         <li>
             <a href="{{ route('community') }}" class="{{ Request::segment(1) == 'community' ? 'active' : '' }}" id="community-link">Community</a>
         </li>
-        <li>
+        {{-- <li>
             <a href="{{ route('achievements') }}" class="{{ Request::segment(1) == 'achievements' ? 'active' : '' }}" id="achievements-link">Achievements</a>
-        </li>
+        </li> --}}
         <li>
             <a href="{{ route('contact') }}" class="{{ Request::segment(1) == 'contact' ? 'active' : '' }}" id="contact-link">Contact Us</a>
         </li>

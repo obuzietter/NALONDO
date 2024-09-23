@@ -1,7 +1,7 @@
 // IntersectionObserver options
 const observerOptions = {
     root: null, // Use the viewport as the root
-    threshold: 0.5 // Trigger when 50% of the element is visible
+    threshold: 1.0 // Trigger when 50% of the element is visible
 };
 
 // Counter function
