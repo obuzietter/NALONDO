@@ -250,13 +250,12 @@
                     </p>
                 </div>
                 <div class="button">
-                    <button id="btn">LEARN MORE</button>
+                    <button id="btn">
+                        <a href="{{ route('about') }}">LEARN MORE</a>
+                        
+                    </button>
                 </div>
-                <nav1>
-                    <!-- <a href="">A</a>
-                    <a href="">B</a>
-                    <a href="">C</a> -->
-                </nav1>
+                
             </div>
         </section>
         <section class="counters">

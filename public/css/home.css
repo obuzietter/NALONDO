@@ -502,6 +502,14 @@ html{
         color: var(--h-color);
         scale: 1.1;
     }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: var(--h-color);
+        }
+    }
 }
 
 /* animated counters section styling */

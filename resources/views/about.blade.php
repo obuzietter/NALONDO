@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="./css/theme.css">
     <link rel="stylesheet" href="/css/about.css">
-    <script src="{{url('/js/about.js')}}" defer></script>
+    <script src="{{ url('/js/about.js') }}" defer></script>
     <script src="/js/counter.js" defer></script>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
+
+  
 
     <style>
         #about-link {
@@ -213,12 +215,12 @@
         </section>
         <section class="traditions">
             <div class="container">
-                <div class="toggle">
-                    <div class="anthem"><a href="#anthem">School Anthem</a></div>
-                    <div class="prayer"><a href="#prayer">School Prayer</a></div>
-                </div>
-                <div class="content">
-                    <div id="anthem">
+               
+                <div class="tabs">
+                    <div class="tab-2">
+                      <label for="tab2-1">School Anthem</label>
+                      <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+                      <div>
                         <h2>School Anthem</h2>
                         <h3>(Verse 1)</h3>
                         <p>In St. Joseph's Nalondo, our hearts unite, Guided by knowledge, we reach for the light. With
@@ -232,8 +234,12 @@
                         <p>In the classroom's wisdom, we find our way, In every challenge, we'll never sway. With
                             mentors
                             and friends, we'll conquer all, As we answer the noblest of calls.</p>
+                      </div>
                     </div>
-                    <div id="prayer">
+                    <div class="tab-2">
+                      <label for="tab2-2">School Prayer</label>
+                      <input id="tab2-2" name="tabs-two" type="radio">
+                      <div>
                         <h2>School Prayer</h2>
                         <h3>Dear Heavenly Father,</h3>
 
@@ -250,9 +256,9 @@
                         <p>In moments of challenge and despair, Give us the resilience to persevere, And when we
                             achieve,
                             let humility be, A constant companion in all that we see.</p>
+                      </div>
                     </div>
-
-                </div>
+                  </div>
             </div>
         </section>
     </main>
@@ -260,7 +266,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    
+
 
 </body>
 
