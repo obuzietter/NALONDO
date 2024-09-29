@@ -259,7 +259,7 @@
                 </nav1>
             </div>
         </section>
-        <section class="counters">
+        <section class="counters" id="counters">
             <div class="counter ob">
                 <span class="count" id="teachers" data-target="32">32</span>
                 <h3>TEACHERS</h3>

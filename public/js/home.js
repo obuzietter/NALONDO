@@ -1,12 +1,12 @@
 // IntersectionObserver options
 const observerOptions = {
     root: null, // Use the viewport as the root
-    threshold: 1.0 // Trigger when 50% of the element is visible
+    threshold: 1.0, // Trigger when 50% of the element is visible
 };
 
 // Counter function
 function animateCounter(element) {
-    const target = +element.getAttribute('data-target'); // Get target number from data-target attribute
+    const target = +element.getAttribute("data-target"); // Get target number from data-target attribute
     const speed = 200; // Adjust speed here (smaller number = faster)
 
     const updateCount = () => {
@@ -26,9 +26,9 @@ function animateCounter(element) {
 
 // IntersectionObserver callback function
 const callback = (entries, observer) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            const counter = entry.target.querySelector('.count');
+            const counter = entry.target.querySelector(".count");
             animateCounter(counter);
             observer.unobserve(entry.target); // Stop observing once animated
         }
@@ -39,6 +39,6 @@ const callback = (entries, observer) => {
 const observer = new IntersectionObserver(callback, observerOptions);
 
 // Observe each element with the class 'ob'
-document.querySelectorAll('.ob').forEach(counter => {
+document.querySelectorAll(".ob").forEach((counter) => {
     observer.observe(counter);
 });
