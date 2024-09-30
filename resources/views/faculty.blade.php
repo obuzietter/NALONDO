@@ -50,12 +50,21 @@
     <div class="main-container">
         <section class="hero">
             <section class="content">
-                <section class="title">
-                    <q>Leadership uncovers the brilliance within</q>
-                    <p>MEET THE <span class="mentors">MENTORS </span>GUIDING OUR STUDENTS TO GREATNESS</p>
-                    <a href="#adminstrator-1">
-                {{-- <img src="/icons/down-arrow.png" alt="" width="50px"> --}}
-            </a>
+                <section class="title-left">
+                    <q>
+                      LEADERSHIP UNCOVERS THE BRILLIANCE WITHIN
+                    </q>
+                    <p>At <span>Nalondo High School</span>, mentorship transcends instruction.It nurtures the mind and the spirit. Here, dedicated educators guide students on a journey of self-discovery, empowering them to embrace their passions and <span>cultivate essential life skills.</span>This transformative experience shapes not just scholars, but <span>resilient individuals</span> ready to navigate the complexities of life.</p>
+                </section>
+
+                <section class="title-right">
+                    <div class="illustration"><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+                        <dotlottie-player src="https://lottie.host/91dbebdc-932d-42ca-8eb5-a6718ae5fb25/o6GzMIRI3p.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop forwaed autoplay></dotlottie-player></div>
+                       <div> <p>WE HAVE <span class="mentors">MENTORS </span>GUIDING OUR STUDENTS TO GREATNESS</p>
+
+                        <a href="#adminstrator-1"><button>SEE THEM</button></a></div>
+
                 </section>
             </section>
         </section>
